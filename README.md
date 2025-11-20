@@ -6,11 +6,12 @@
 
 ---
 
-## Languages & Tools
+## My GitHub Activity
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rohan-shridhar&layout=compact)
+![Commits Badge](https://img.shields.io/badge/Commits%20%28last%20year%29-41-blue)
 
 ---
 
-<!-- Animated GitHub Stats -->
-![Rohan's GitHub stats](https://github-readme-stats.vercel.app/api?username=rohan-shridhar&show_icons=true&theme=radical&count_private=true)
+## Languages & Tools
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rohan-shridhar&layout=compact)
