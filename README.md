@@ -3,15 +3,13 @@
 - 🎓 UG CSE Student
 - 💡 Interests: MERN stack, Data Structures & Algorithms (DSA), Mathematics
 - 📫 [Connect with me!](https://www.linkedin.com/in/rohan-mirjankar/)
+- 📷 [Instagram](https://instagram.com/rohansm90)
 
----
-
-## My GitHub Activity
-
-![Commits Badge](https://img.shields.io/badge/Commits%20-41-red)
 
 ---
 
 ## Languages & Tools
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rohan-shridhar&layout=compact)
+
+---
