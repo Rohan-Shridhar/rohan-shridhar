@@ -8,9 +8,9 @@
 
 ## Languages & Tools
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rohan-mirjankar&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rohan-shridhar&layout=compact)
 
 ---
 
 <!-- Animated GitHub Stats -->
-![Rohan's GitHub stats](https://github-readme-stats.vercel.app/api?username=rohan-mirjankar&show_icons=true&theme=radical&count_private=true)
+![Rohan's GitHub stats](https://github-readme-stats.vercel.app/api?username=rohan-shridhar&show_icons=true&theme=radical&count_private=true)
