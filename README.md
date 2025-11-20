@@ -8,7 +8,7 @@
 
 ## My GitHub Activity
 
-![Commits Badge](https://img.shields.io/badge/Commits%20%28last%20year%29-41-blue)
+![Commits Badge](https://img.shields.io/badge/Commits%20%29-41-red)
 
 ---
 
