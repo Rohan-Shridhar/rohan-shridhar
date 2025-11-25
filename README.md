@@ -1,7 +1,8 @@
-# Hi, I'm Rohan S M <img src="https://github.com/gerane/gerane/raw/main/wave.gif" width="30px" alt="wave"/>
+# Hi, I'm Rohan S M 
+## Just starting my journey:)
 
-- 🎓 UG CSE Student
-- 💡 Interests: MERN stack, Data Structures & Algorithms (DSA), Mathematics
+- 🎓 CSE Student
+- 💡 Interests: Web development, Data Structures & Algorithms (DSA), Mathematics
 - 📫 [Connect with me!](https://www.linkedin.com/in/rohan-mirjankar/)
 - 📷 [Instagram](https://instagram.com/rohansm90)
 - 👔 [Portfolio](https://rohan-shridhar.github.io/portfolio/)
