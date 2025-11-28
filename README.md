@@ -8,6 +8,11 @@
 - 👔 [Portfolio](https://rohan-shridhar.github.io/portfolio/)
 
 ---
+## My Pull Requests
+
+![Total PRs](https://github-readme-stats.vercel.app/api?username=rohan-shridhar&show=prs&hide=stars,commits,issues,contribs)
+
+---
 
 ## Languages & Tools
 
