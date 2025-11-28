@@ -1,5 +1,4 @@
-# Hi, I'm Rohan S M 
-## Just starting my journey :)
+# Hi, I'm Rohan S M
 
 - 🎓 CSE Student
 - 💡 Interests: Web development, Data Structures & Algorithms (DSA), Mathematics
@@ -9,8 +8,7 @@
 
 ---
 
-
-## Languages & Tools
+## Languages I Use
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rohan-shridhar&layout=compact)
 
