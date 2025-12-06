@@ -1,0 +1,12 @@
+.image{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+body{
+    background-color: rgb(192, 136, 91);
+    color: black;
+}
+a:hover{
+    transform: scale(1.05);
+}
