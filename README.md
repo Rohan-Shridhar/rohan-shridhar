@@ -1,10 +1,8 @@
-# <div align="center">I'm Rohan.S.M</div>  
+# <div align="center">I'm Rohan.S.M 👋</div>  
   
 
 #### CSE Student falling for web development 🫠  
-  
-
-<br/>  
+ 
 
 
 ## My Skill Set  
@@ -31,6 +29,10 @@
 </div>
 <br/>  
 
+## 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=rohan-shridhar&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=rohan-shridhar&theme=shadow_green&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=rohan-shridhar&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## Connect with me  
 <a href="https://github.com/rohan-shridhar" target="_blank">
