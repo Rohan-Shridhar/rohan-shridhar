@@ -1,4 +1,4 @@
-# <div align="center">I'm Rohan.S.M 👋</div>  
+# <div align="center">I'm Rohan.S.M</div>  
   
 
 #### CSE Student falling for web development 🫠  
