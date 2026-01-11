@@ -1,4 +1,3 @@
-# <p align="center">Hi there, I'm Rohan S.M 👋</p>
 <img src="thumbnail.png" alt="Thumbnail" title="Thumbnail">
 
 <p align="center">
