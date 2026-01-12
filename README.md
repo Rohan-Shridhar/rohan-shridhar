@@ -7,10 +7,14 @@
 </p>
 
 <p align="center">
-  <strong>Web Developer | Lifelong Learner | Problem Solver</strong>
+  <strong>Web Development Learner | Problem Solver</strong>
 </p>
 
 ---
+### ✍️ Quote of the day
+```txt
+  Magic slates are really useful print
+````
 
 ### 🚀 About Me
 I am a **Web Developer** passionate about creating interactive and user-friendly web applications. You can view my latest projects by clicking the icon above.
