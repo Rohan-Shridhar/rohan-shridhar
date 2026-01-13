@@ -13,7 +13,7 @@
 ---
 ### ✍️ Quote of the day
 ```txt
-  Friendship is worth a shot
+  Friendship is worth a shot 😃
 ````
 
 ### 🚀 About Me
