@@ -14,7 +14,7 @@
 ---
 ### ✍️ Quote of the day
 ```txt
-  Friendship is worth a shot 😃
+  Linux is the goat <3!
 ````
 
 ### 🚀 About Me
