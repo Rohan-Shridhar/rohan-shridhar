@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://rohan-shridhar.github.io/portfolio/">
-    <img src="student.gif" width="100" alt="Portfolio" title="Portfolio">
+    <img src="profile.gif" width="100" alt="Portfolio" title="Portfolio">
   </a>
 </p>
 
