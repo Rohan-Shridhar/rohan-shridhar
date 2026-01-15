@@ -6,17 +6,19 @@
   </a>
 </p>
 
+<p align="center">
+  <strong>Web Development Learner | Problem Solver</strong>
+</p>
 
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=times+new+roman&weight=700&size=50&pause=100&color=abcdef&background=000000FD&center=true&width=999&height=100&lines=Let's+built+together+(0´◡`0))](https://git.io/typing-svg)
-
-### 🚀 About Me
-I am passionate about creating interactive and user-friendly web applications. You can view my latest projects by clicking the icon above.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=times+new+roman&weight=700&size=50&pause=100&color=BF61F7&background=000000FD&center=true&width=999&height=100&lines=Let's+built+together+(ง+•+•)ง)](https://git.io/typing-svg)
 ---
 ### ✍️ Quote of the day
 ```txt
-  AI might be overrated in my opinion
+  Linux is the goat <3!
 ````
+
+### 🚀 About Me
+I am a **Web Developer** passionate about creating interactive and user-friendly web applications. You can view my latest projects by clicking the icon above.
 
 ### 📊 GitHub Stats
 <p align="center">
