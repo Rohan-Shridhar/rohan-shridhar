@@ -5,9 +5,9 @@
     <img src="profile.gif" width="100" alt="Portfolio" title="Portfolio">
   </a>
 </p>
-
 <p align="center">
-  <strong>Web Development Learner | Problem Solver</strong>
+<img src="card2.png" width=200>
+<img src="card.png" width=200>
 </p>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=times+new+roman&weight=700&size=50&pause=100&color=BF61F7&background=000000FD&center=true&width=999&height=100&lines=Let's+built+together+(●'◡'●))](https://git.io/typing-svg)
