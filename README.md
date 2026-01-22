@@ -1,3 +1,7 @@
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=times+new+roman&weight=700&size=50&pause=100&color=BF61F7&background=000000FD&center=true&width=999&height=100&lines=Hi+there👋!!)](https://git.io/typing-svg)
+
+
 <img src="thumbnail.png" alt="Thumbnail" title="Thumbnail">
 
 <p align="center">
@@ -15,8 +19,6 @@
 <img src="card2.png" width=300>
 <img src="card.png" width=300>
 </p>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=times+new+roman&weight=700&size=50&pause=100&color=BF61F7&background=000000FD&center=true&width=999&height=100&lines=Let's+built+together+(●'◡'●))](https://git.io/typing-svg)
 
 
 ---
