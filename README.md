@@ -29,11 +29,9 @@
 ### 📊 GitHub Stats
 
 <p align=center>
-  <img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=great-gatsby&date_format=j%20M%5B%20Y%5D&card_height=185&hide_current_streak=true&hide_longest_streak=true" alt="Total contributions" />
-</p>
+  <img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=great-gatsby&date_format=j%20M%5B%20Y%5D&card_height=185&hide_current_streak=true&hide_longest_streak=true" alt="Total contributions" width=250 height="350" />
 
-<p align=center>
-<img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=highcontrast&date_format=j%20M%5B%20Y%5D&card_height=185&hide_total_contributions=true&hide_longest_streak=true" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=highcontrast&date_format=j%20M%5B%20Y%5D&card_height=185&hide_total_contributions=true&hide_longest_streak=true" alt="GitHub Streak" width=250 height="350" />
 </p>
 
 <p align=center>
