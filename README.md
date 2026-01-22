@@ -37,7 +37,7 @@
 </p>
 
 <p align=center>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rohan-shridhar&locale=en&hide_title=false&layout=compact&card_width=500&langs_count=5&theme=merko&hide_border=false&order=2" height="250" alt="languages graph"  />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rohan-shridhar&locale=en&hide_title=false&layout=compact&card_width=500&langs_count=6&theme=merko&hide_border=false&border="2" height="250" alt="languages graph"  />
 </p>
 
 ### 🌐 Connect with me
