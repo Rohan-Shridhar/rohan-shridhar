@@ -27,9 +27,6 @@
 ````
 
 ### 📊 GitHub Stats
-<p align=center>
-<img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=highcontrast&date_format=j%20M%5B%20Y%5D&card_height=185" alt="GitHub Streak" />
-</p>
 
 <p align=center>
   <img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=great-gatsby&date_format=j%20M%5B%20Y%5D&card_height=185&hide_current_streak=true&hide_longest_streak=true" alt="Total contributions" />
