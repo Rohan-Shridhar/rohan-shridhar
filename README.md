@@ -32,7 +32,7 @@ Best you can do except being creative is code
 
 ### 📸 Meme of the week
 
-<a href="https://imgflip.com/i/ainx73"><img src="https://i.imgflip.com/ainx73.jpg" title="made at imgflip.com"/></a><div><a href="https://imgflip.com/memegenerator">from Imgflip Meme Generator</a></div>
+<a href="https://imgflip.com/i/ainx73"><img src="https://i.imgflip.com/ainx73.jpg" title="made at imgflip.com"/></a>
 
 
 ### 🌐 Connect with me
