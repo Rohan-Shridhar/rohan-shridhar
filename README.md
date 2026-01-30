@@ -1,7 +1,7 @@
 <!--- [![Typing SVG](https://readme-typing-svg.demolab.com?font=times+new+roman&weight=700&size=50&pause=100&color=BF61F7&background=000000FD&center=true&width=999&height=100&lines=Hi+there👋!!)](https://git.io/typing-svg) --->
 
 
-<img src="banners/2222.png" alt="banner" title="banner">
+<img src="banners/1111.png" alt="banner" title="banner">
 
 <p align="center">
   <a href="https://rohan-shridhar.github.io/portfolio/">
@@ -16,7 +16,7 @@
 ---
 ### ✍️ A Random Thought
 ```txt
-Best you can do except being creative is code 
+Overconfidence is a poison 😭
 ````
 
 ### 📊 GitHub Stats
