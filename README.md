@@ -1,7 +1,7 @@
 <!--- [![Typing SVG](https://readme-typing-svg.demolab.com?font=times+new+roman&weight=700&size=50&pause=100&color=BF61F7&background=000000FD&center=true&width=999&height=100&lines=Hi+there👋!!)](https://git.io/typing-svg) --->
 
 
-<img src="banners/2222.png" alt="banner" title="banner">
+<img src="banners/4444.png" alt="banner" title="banner">
 
 <p align="center">
   <a href="https://rohan-shridhar.github.io/portfolio/">
@@ -22,17 +22,16 @@ Best you can do except being creative is code
 ### 📊 GitHub Stats
 
 <p align=center>
-<img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=great-gatsby&date_format=j%20M%5B%20Y%5D&card_height=185&hide_current_streak=true&hide_longest_streak=true" alt="Total contributions" width=300 height="350" />
-<img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=highcontrast&date_format=j%20M%5B%20Y%5D&card_height=185&hide_total_contributions=true&hide_longest_streak=true" alt="GitHub Streak" width=300 height="350" />
+<img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=great-gatsby&date_format=j%20M%5B%20Y%5D&card_height=185&hide_current_streak=true&hide_longest_streak=true" alt="Total contributions" width=300 height="350"/>
+<img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=highcontrast&date_format=j%20M%5B%20Y%5D&card_height=185&hide_total_contributions=true&hide_longest_streak=true" alt="GitHub Streak" width=300 height="350"/>
 </p>
-
 <p align=center>
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rohan-shridhar&locale=en&hide_title=false&layout=compact&card_width=500&langs_count=6&theme=merko&hide_border=false&border="2" height="250" alt="languages graph"/>
 </p>
 
 ### 📸 Meme of the week
 
-<img src="https://i.imgflip.com/ainx73.jpg" title="made at imgflip.com" width=500/>
+![yeah!!! (1)](https://github.com/user-attachments/assets/863aaa95-2c58-4ea3-8476-8e9c3ee6d603)
 
 
 ### 🌐 Connect with me
