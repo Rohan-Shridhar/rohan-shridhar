@@ -16,7 +16,7 @@
 ---
 ### ✍️ A Random Thought
 ```txt
-Comfort is cancer 
+Exam pressure is real.. 😔
 ````
 
 ### 📊 GitHub Stats
