@@ -16,7 +16,7 @@
 ---
 ### ✍️ A Random Thought
 ```txt
-Exam pressure is real.. 😔
+DBMS is easy peasy!!
 ````
 
 ### 📊 GitHub Stats
@@ -29,9 +29,11 @@ Exam pressure is real.. 😔
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rohan-shridhar&locale=en&hide_title=false&layout=compact&card_width=500&langs_count=6&theme=merko&hide_border=false&border="2" height="250" alt="languages graph"/>
 </p>
 --->
+
 <p align="center">
   <img src="https://nirzak-streak-stats.vercel.app/?user=rohan-shridhar&theme=shadow_green&hide_border=false" alt="GitHub Streak" height="150" />
 </p>
+
 
 ### 📸 Meme of the week
 
