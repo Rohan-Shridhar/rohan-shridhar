@@ -31,13 +31,13 @@ Football ❤️
 --->
 
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=rohan-shridhar&theme=shadow_green&hide_border=false" alt="GitHub Streak" height="150" />
+  <img src="https://nirzak-streak-stats.vercel.app/?user=rohan-shridhar&theme=shadow_green&hide_border=false" alt="GitHub Streak" height="150"/>
 </p>
 
 
 ### 📸 Meme of the week
 
-<img src="https://i.imgflip.com/ajkei6.jpg" title="made at imgflip.com" width="400"/>
+<img src="https://i.imgflip.com/ajkei6.jpg" title="made at imgflip.com" width="500"/>
 
 
 ### 🌐 Connect with me
