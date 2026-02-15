@@ -35,10 +35,8 @@ Holidays ❤️
 </p>
 
 
-### 📸 Meme of the week
-
-<img src="https://i.imgflip.com/ajkei6.jpg" title="made at imgflip.com" width="500"/>
-
+### 📸 Meme of the week 
+<img src="https://i.imgflip.com/ak7dxc.jpg" title="made at imgflip.com" width="570"/>
 
 ### 🌐 Connect with me
 <p align=center>
