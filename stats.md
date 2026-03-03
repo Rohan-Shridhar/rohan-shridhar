@@ -42,4 +42,4 @@ alt="Rohan's GitHub Contributions" />
 src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=torvalds&theme=react&border_radius=10&border_color=666"
 alt="Linus's GitHub Contributions" />
 
-![Rohan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rohan-shridhar&theme=rose&show=prs_merged,prs_merged_percentage&show_icons=true&rank_icon=github)
+![Rohan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rohan-shridhar&show_icons=true&theme=rose)
