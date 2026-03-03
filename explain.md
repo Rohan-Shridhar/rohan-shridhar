@@ -1,0 +1,1 @@
+![Rohan's GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=rohan-shridhar&show_icons=true&theme=rose)
