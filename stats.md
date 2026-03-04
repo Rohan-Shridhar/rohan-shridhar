@@ -46,22 +46,21 @@ alt="Linus's GitHub Contributions" />
 
 [![Profile Visits](https://komarev.com/ghpvc/?username=rohan-shridhar&color=0000FF)](https://github.com/avs-abhishek123)
 
-<!---
+
 <p align = "center">
- <img src="https://activity-graph.herokuapp.com/graph?username=Ramakm&theme=redical">
+ <img src="https://activity-graph.herokuapp.com/graph?username=rohan-shridhar&theme=redical">
 </p>  
 
 
-[![avs-abhishek123's github activity graph](https://activity-graph.herokuapp.com/graph?username=avs-abhishek123)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![avs-abhishek123's github activity graph](https://activity-graph.herokuapp.com/graph?username=rohan-shridhar)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <p align = 'center'>
-<img height="295em"  src="https://activity-graph.herokuapp.com/graph?username=avs-abhishek123&theme=chartreuse-dark" alt="Abhishek's GitHub Activity"/>
+<img height="295em"  src="https://activity-graph.herokuapp.com/graph?username=rohan-shridhar&theme=chartreuse-dark" alt="Abhishek's GitHub Activity"/>
 </p>
 
 
 <p align = 'center'>
-<img height="295em"  src="https://activity-graph-ahmedshahriar.herokuapp.com/graph?username=avs-abhishek123&theme=chartreuse-dark" alt="Abhishek's GitHub Activity"/>
+<img height="295em"  src="https://activity-graph-ahmedshahriar.herokuapp.com/graph?username=rohan-shridhar&theme=chartreuse-dark" alt="Abhishek's GitHub Activity"/>
 </p>
---->
 
 ![](https://activity-graph-ahmedshahriar.herokuapp.com/graph?username=rohan-shridhar&theme=chartreuse-dark) 
