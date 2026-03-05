@@ -63,4 +63,7 @@ alt="Linus's GitHub Contributions" />
 <img height="295em"  src="https://activity-graph-ahmedshahriar.herokuapp.com/graph?username=rohan-shridhar&theme=chartreuse-dark" alt="Abhishek's GitHub Activity"/>
 </p>
 
+
+[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=rohan-shridhar)](https://github.com/LordDashMe/github-contribution-stats/)
+
 ![](https://activity-graph-ahmedshahriar.herokuapp.com/graph?username=rohan-shridhar&theme=chartreuse-dark) 
