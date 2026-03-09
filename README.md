@@ -1,7 +1,7 @@
 <!--- [![Typing SVG](https://readme-typing-svg.demolab.com?font=times+new+roman&weight=700&size=50&pause=100&color=BF61F7&background=000000FD&center=true&width=999&height=100&lines=Hi+there👋!!)](https://git.io/typing-svg) --->
 
 
-<img src="banners/4444.png" alt="banner" title="banner" border-radius="25">
+<img src="banners/3333.png" alt="banner" title="banner" border-radius="25">
 
 <p align="center">
   <a href="https://rohan-shridhar.github.io/portfolio/">
@@ -16,7 +16,7 @@
 ---
 ### ✍️ A Random Thought
 ```txt
-Backend is not a joke
+Claude > Chat GPT
 ````
 
 ### 📊 GitHub Stats
@@ -35,8 +35,9 @@ Backend is not a joke
 </p>
 
 
-### 📸 Meme of the week 
-<img src="https://i.imgflip.com/aksiby.jpg" title="made at imgflip.com" width="570"/>
+### 📸 Meme of the week
+
+<img src="https://i.imgflip.com/am6op0.jpg" title="made at imgflip.com" width="570"/>
 
 ### 🌐 Connect with me
 <p align=center>
