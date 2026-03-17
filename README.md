@@ -14,6 +14,18 @@
 ### I am  passionate about creating interactive and user-friendly web applications. You can view my portfolio by clicking the icon above.
 
 ---
+## 🗂️ Repositories
+
+<p align="center">
+  <a href="https://github.com/rohan-shridhar/repo1">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohan-shridhar&repo=portfolio" />
+  </a>
+  <a href="https://github.com/rohan-shridhar/repo2">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohan-shridhar&repo=gridcraft" />
+  </a>
+</p>
+
+---
 ### ✍️ A Random Thought
 ```txt
 Claude > Chat GPT
