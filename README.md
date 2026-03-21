@@ -17,10 +17,10 @@
 ## 🗂️ Repositories
 
 <p align="center">
-  <a href="https://github.com/rohan-shridhar/repo1">
+  <a href="https://github.com/rohan-shridhar/page-construction">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohan-shridhar&repo=page-construction" />
   </a>
-  <a href="https://github.com/rohan-shridhar/repo2">
+  <a href="https://github.com/rohan-shridhar/portfolio">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohan-shridhar&repo=portfolio" />
   </a>
 </p>
