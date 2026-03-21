@@ -21,7 +21,7 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohan-shridhar&repo=page-construction" />
   </a>
   <a href="https://github.com/rohan-shridhar/repo2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohan-shridhar&repo=gridcraft" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohan-shridhar&repo=portfolio" />
   </a>
 </p>
 
