@@ -47,23 +47,10 @@ alt="Linus's GitHub Contributions" />
 [![Profile Visits](https://komarev.com/ghpvc/?username=rohan-shridhar&color=0000FF)](https://github.com/avs-abhishek123)
 
 
-<p align = "center">
- <img src="https://activity-graph.herokuapp.com/graph?username=rohan-shridhar&theme=redical">
-</p>  
+[![Profile Visits](https://komarev.com/ghpvc/?username=torvalds&color=0000FF)](https://github.com/avs-abhishek123)
 
 
-[![avs-abhishek123's github activity graph](https://activity-graph.herokuapp.com/graph?username=rohan-shridhar)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-<p align = 'center'>
-<img height="295em"  src="https://activity-graph.herokuapp.com/graph?username=rohan-shridhar&theme=chartreuse-dark" alt="Abhishek's GitHub Activity"/>
-</p>
-
-
-<p align = 'center'>
-<img height="295em"  src="https://activity-graph-ahmedshahriar.herokuapp.com/graph?username=rohan-shridhar&theme=chartreuse-dark" alt="Abhishek's GitHub Activity"/>
-</p>
-
+[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=torvalds)](https://github.com/LordDashMe/github-contribution-stats/)
 
 [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=rohan-shridhar)](https://github.com/LordDashMe/github-contribution-stats/)
 
-![](https://activity-graph-ahmedshahriar.herokuapp.com/graph?username=rohan-shridhar&theme=chartreuse-dark) 
