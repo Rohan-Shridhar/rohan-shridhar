@@ -30,7 +30,7 @@
 ---
 ### ✍️ A Random Thought
 ```txt
-Claude > Chat GPT
+Notion = productivity++
 ````
 
 ### 📊 GitHub Stats
@@ -49,7 +49,7 @@ Claude > Chat GPT
 
 
 ### 📸 Meme of the week
-<img src="https://i.imgflip.com/amo5w6.jpg" title="made at imgflip.com" width ="570"/>
+<img src="https://i.imgflip.com/an9paz.jpg" title="made at imgflip.com" width="570"/>
 
 ### 🌐 Connect with me
 <p align=center>
