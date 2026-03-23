@@ -23,7 +23,7 @@
 
   
   <a href="https://github.com/rohan-shridhar/portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohan-shridhar&repo=portfolio" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohan-shridhar&repo=gridcraft" />
   </a>
 </p>
 
