@@ -9,11 +9,26 @@
   </a>
 </p>
 
+> You can view my portfolio by clicking the icon above.
+---
+## ✍️ About me  
 
-## 🚀 About Me
-### I am  passionate about creating interactive and user-friendly web applications. You can view my portfolio by clicking the icon above.
+> 🧑‍🎓 CS UG Student from BMSCE, Bangalore  
+> 🧑‍💻 Learning Fullstack Web Development  
+> 🌍 Contribute open source projects  
+> 🤝 Always open to collaborate  
+
+
+
+## 🧩 My popular projects
+### 🎨 [Gridcraft](https://rohan-shridhar.github.io/gridcraft/) - Pixel art application with 14x14 grid and download image feature
+  <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" />
+
+###  [Attendance Tracker](https://attendance-tracker-seven-kappa.vercel.app/) - Tracker for attendance using react, mongo and express
+  <img src="https://img.shields.io/github/contributors/rohan-shridhar/attendance-tracker" />
 
 ---
+<!---
 ## 🗂️ Repositories
 
 <p align="center">
@@ -26,13 +41,12 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohan-shridhar&repo=gridcraft" />
   </a>
 </p>
-
 ---
 ### ✍️ A Random Thought
 ```txt
 Notion = productivity++
 ````
-
+-->
 ### 📊 GitHub Stats
 
 <p align=center>
@@ -43,6 +57,7 @@ Notion = productivity++
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rohan-shridhar&locale=en&hide_title=false&layout=compact&card_width=500&langs_count=6&theme=merko&hide_border=false&border="2" height="250" alt="languages graph"/>
 </p>
 
+<!--
 <p align="center">
   <img src="https://nirzak-streak-stats.vercel.app/?user=rohan-shridhar&theme=shadow_green&hide_border=false" alt="GitHub Streak" height="150"/>
 </p>
@@ -50,6 +65,7 @@ Notion = productivity++
 
 ### 📸 Meme of the week
 <img src="https://i.imgflip.com/an9paz.jpg" title="made at imgflip.com" width="570"/>
+--->
 
 ### 🌐 Connect with me
 <p align=center>
