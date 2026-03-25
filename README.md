@@ -18,7 +18,7 @@
 
 > 🧑‍🎓 CS UG Student from BMSCE, Bangalore  
 > 🧑‍💻 Learning Fullstack Web Development  
-> 🌍 Contribute open source projects  
+> 🌍 Contributing open source projects  
 > 🤝 Always open to collaborate  
 
 
