@@ -20,6 +20,7 @@
 > 🧑‍💻 Learning Fullstack Web Development  
 > 🌍 Contributing open source projects  
 > 🤝 Always open to collaborate  
+> ⛏️ I love playing Minecraft
 
 
 
