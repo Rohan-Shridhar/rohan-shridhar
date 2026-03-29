@@ -65,11 +65,11 @@ Notion = productivity++
 <p align="center">
   <img src="https://nirzak-streak-stats.vercel.app/?user=rohan-shridhar&theme=shadow_green&hide_border=false" alt="GitHub Streak" height="150"/>
 </p>
-
+--->
 
 ### 📸 Meme of the week
-<img src="https://i.imgflip.com/an9paz.jpg" title="made at imgflip.com" width="570"/>
---->
+<img src="https://i.imgflip.com/anvzhh.jpg" title="made at imgflip.com"/>
+
 
 ### 🌐 Connect with me
 <p align=center>
