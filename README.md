@@ -1,10 +1,13 @@
-<!--- [![Typing SVG](https://readme-typing-svg.demolab.com?font=times+new+roman&weight=700&size=50&pause=100&color=BF61F7&background=000000FD&center=true&width=999&height=100&lines=Hi+there👋!!)](https://git.io/typing-svg) 
-
+<!--
 <img width="1000" alt="image" src="https://github.com/user-attachments/assets/08f56d6a-133e-4e4b-a314-4fada07d6015" />
 
 <img width="1000" alt="image" src="https://github.com/user-attachments/assets/8d0d8ddd-4bbb-4519-b218-2011a691bec2" />
---->
+
 <img width="1026" alt="image" src="https://github.com/user-attachments/assets/1e9627de-b37d-480c-ad22-2e5e767e2bd2" />
+--->
+<img width="1020" height="392" alt="image" src="https://github.com/user-attachments/assets/021ea2b2-95d2-4ac2-b99a-a381be460e11" />
+
+
 
 <p align="center">
   <a href="https://rohan-shridhar.github.io/portfolio/">
