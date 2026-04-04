@@ -31,15 +31,12 @@
 ### 🎨 [Gridcraft](https://rohan-shridhar.github.io/gridcraft/) - Pixel art application with 14x14 grid and download image feature
   <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" />
 
-### 📝 [To Do List](https://to-do-list-iota-fawn-49.vercel.app/) - Simple to do list application with react js with feature to set priority
-  <img src="https://img.shields.io/github/contributors/rohan-shridhar/to-do-list" />
-
 ### 🚧 [Page construction](https://page-construction-five.vercel.app/) - Temporary webpage for maintainance purposes
   <img src="https://img.shields.io/github/contributors/rohan-shridhar/page-construction" />
 
-### 🚧 [Not JS](https://rohan-shridhar.github.io/notjs/) - Javascript code recogniser (April fool's project)
-  <img src="https://img.shields.io/github/contributors/rohan-shridhar/notjs" />
-
+### 📝 [To Do List](https://to-do-list-iota-fawn-49.vercel.app/) - Simple to do list application with react js with feature to set priority
+  <img src="https://img.shields.io/github/contributors/rohan-shridhar/to-do-list" />
+  
 ---
 <!---
 ## 🗂️ Repositories
