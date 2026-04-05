@@ -74,7 +74,7 @@ Notion = productivity++
 --->
 
 ### 📸 Meme of the week
-<img src="https://i.imgflip.com/anvzhh.jpg" title="made at imgflip.com"/>
+<img src="https://i.imgflip.com/aofalb.jpg" width="350" />
 
 
 ### 🌐 Connect with me
