@@ -28,7 +28,7 @@
 
 
 ## 🧩 My popular projects
-### 🎨 [Gridcraft](https://rohan-shridhar.github.io/gridcraft/) - Pixel art application with 14x14 grid and download image feature
+### 🎨 [Gridcraft](https://rohan-shridhar.github.io/gridcraft/) - Pixel art application with 15x15 grid and download image feature
   <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" />
 
 ### 🚧 [Page construction](https://page-construction-five.vercel.app/) - Temporary webpage for maintainance purposes
