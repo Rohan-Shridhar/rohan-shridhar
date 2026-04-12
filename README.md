@@ -35,7 +35,8 @@
   <img src="https://img.shields.io/github/contributors/rohan-shridhar/page-construction" />
 
 ### 📝 [Ciphex](https://github.com/Rohan-Shridhar/ciphex) - Npm package that provides encryption and decryption function for developers
-  <img src="https://img.shields.io/github/contributors/rohan-shridhar/ciphex" />
+  <img src="https://img.shields.io/github/contributors/rohan-shridhar/ciphex" />  <img src="https://img.shields.io/npm/dw/ciphex" /> 
+
   
 ---
 <!---
