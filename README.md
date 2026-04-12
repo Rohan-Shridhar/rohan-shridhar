@@ -34,8 +34,8 @@
 ### 🚧 [Page construction](https://page-construction-five.vercel.app/) - Temporary webpage for maintainance purposes
   <img src="https://img.shields.io/github/contributors/rohan-shridhar/page-construction" />
 
-### 📝 [To Do List](https://to-do-list-iota-fawn-49.vercel.app/) - Simple to do list application with react js with feature to set priority
-  <img src="https://img.shields.io/github/contributors/rohan-shridhar/to-do-list" />
+### 📝 [Ciphex](https://github.com/Rohan-Shridhar/ciphex) - Npm package that provides encryption and decryption function for developers
+  <img src="https://img.shields.io/github/contributors/rohan-shridhar/ciphex" />
   
 ---
 <!---
