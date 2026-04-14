@@ -19,11 +19,11 @@
 ---
 ## ✍️ About me  
 
-> 🧑‍🎓 CS UG Student from BMSCE, Bangalore  
-> 🧑‍💻 Learning Fullstack Web Development  
-> 🌍 Contributing open source projects  
-> 🤝 Always open to collaborate  
-> ⛏️ I love playing Minecraft
+🧑‍🎓 CS UG Student from BMSCE, Bangalore  
+🧑‍💻 Learning Fullstack Web Development  
+🌍 Contributing open source projects  
+🤝 Always open to collaborate  
+⛏️ I love playing Minecraft
 
 
 
