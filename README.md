@@ -19,12 +19,13 @@
 ---
 ## ✍️ About me  
 
-🧑‍🎓 CS UG Student from BMSCE, Bangalore  
-🧑‍💻 Learning Fullstack Web Development  
-🌍 Contributing open source projects  
-🤝 Always open to collaborate  
-⛏️ I love playing Minecraft
-
+<h3><i>
+🧑‍🎓 CS UG Student from BMSCE, Bangalore  <br>
+🧑‍💻 Learning Fullstack Web Development  <br>
+🌍 Contributing open source projects  <br>
+🤝 Always open to collaborate  <br>
+⛏️ I love playing Minecraft  <br>
+</h3></i>
 
 
 ## 🧩 My popular projects
@@ -90,5 +91,6 @@ alt="Dev community" ></a>
   <a href="https://twitter.com/Rohan_shridhar" target="_blank"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="twitter" /></a>
 </p>
 
+<!--
 [![An image of @rohanshridhar's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rohanshridhar)](https://holopin.io/@rohanshridhar)
-
+-->
