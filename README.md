@@ -61,7 +61,7 @@ Notion = productivity++
 -->
 ### 📊 GitHub Stats
 
-
+![GitHub Streak](https://streak-stats.demolab.com?user=rohan-shridhar&theme=rose)
 
 <!--
 <img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=great-gatsby&date_format=j%20M%5B%20Y%5D&card_height=185&hide_current_streak=true&hide_longest_streak=true" alt="Total contributions" width=300 height="350"/>
