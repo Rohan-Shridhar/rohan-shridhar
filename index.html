@@ -710,6 +710,11 @@
         return colors[lang] || "#888";
       }
 
+      // Toggle issues panel
+      document.querySelector('.issues-header').addEventListener('click', () => {
+        document.getElementById('issues-panel').classList.toggle('expanded');
+      });
+
       init();
     </script>
   </body>
