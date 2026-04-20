@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohan Shridhar — Projects</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --card: #16161f;
+    --border: rgba(255,255,255,0.07);
+    --border-hover: rgba(255,255,255,0.15);
+    --text-primary: #f0f0f5;
+    --text-secondary: #888899;
+    --text-muted: #555566;
+    --accent: #7c6bff;
+    --teal: #00d4aa;
+    --teal-dim: rgba(0,212,170,0.08);
+    --mono: 'Space Mono', monospace;
+    --sans: 'DM Sans', sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: var(--sans);
+    background: var(--bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 20px;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .avatar {
+    width: 56px; height: 56px;
+    border-radius: 50%;
+    border: 2px solid rgba(124,107,255,0.3);
+    object-fit: cover;
+  }
+  .avatar-fallback {
+    width: 56px; height: 56px;
+    border-radius: 50%;
+    border: 2px solid rgba(124,107,255,0.3);
+    background: #16161f;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--mono);
+    font-size: 14px;
+    color: var(--accent);
+  }
+  .profile-text h1 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+  }
+  .profile-text a {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .profile-text a:hover { text-decoration: underline; }
+
+  .label {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    width: 100%;
+    max-width: 720px;
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.2s, transform 0.2s, background 0.2s;
+  }
+  .card::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    border-radius: 14px 14px 0 0;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .card:hover { border-color: var(--border-hover); transform: translateY(-3px); background: #1a1a26; }
+  .card:hover::after { opacity: 1; }
+  .card-gridcraft::after { background: linear-gradient(90deg, #f1e05a, transparent); }
+  .card-ciphex::after    { background: linear-gradient(90deg, #3178c6, transparent); }
+
+  .card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .repo-name {
+    font-family: var(--mono);
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .card:hover .repo-name { color: #a090ff; }
+  .icon {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.03);
+  }
+
+  .desc {
+    font-size: 13.5px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    flex: 1;
+  }
+
+  .topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .topic {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--teal);
+    background: var(--teal-dim);
+    border: 1px solid rgba(0,212,170,0.15);
+    border-radius: 4px;
+    padding: 2px 8px;
+  }
+
+  .card-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+  .lang {
+    display: flex; align-items: center; gap: 5px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-secondary);
+  }
+  .dot { width: 9px; height: 9px; border-radius: 50%; }
+  .npm-badge {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: #cc3534;
+    background: rgba(204,53,52,0.1);
+    border: 1px solid rgba(204,53,52,0.2);
+    border-radius: 4px;
+    padding: 2px 7px;
+  }
+  .gh-btn {
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text-muted);
+    display: flex; align-items: center; gap: 5px;
+    transition: color 0.15s;
+  }
+  .card:hover .gh-btn { color: var(--text-secondary); }
+</style>
+</head>
+<body>
+
+<div class="profile">
+  <div class="avatar-fallback">RS</div>
+  <div class="profile-text">
+    <h1>Rohan Shridhar</h1>
+    <a href="https://github.com/Rohan-Shridhar" target="_blank">@Rohan-Shridhar</a>
+  </div>
+</div>
+
+<div class="label">featured projects</div>
+
+<div class="grid">
+
+  <a class="card card-gridcraft" href="https://github.com/Rohan-Shridhar/gridcraft" target="_blank">
+    <div class="card-head">
+      <span class="repo-name">gridcraft</span>
+      <span class="icon">🎨</span>
+    </div>
+    <p class="desc">A pixel art editor built with React. Draw on a 14×14 grid, import PNG images, and export your creations — right in the browser.</p>
+    <div class="topics">
+      <span class="topic">react</span>
+      <span class="topic">pixel-art</span>
+      <span class="topic">canvas</span>
+      <span class="topic">editor</span>
+    </div>
+    <div class="card-footer">
+      <span class="lang"><span class="dot" style="background:#f1e05a"></span>JavaScript</span>
+      <span class="gh-btn">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        view repo ↗
+      </span>
+    </div>
+  </a>
+
+  <a class="card card-ciphex" href="https://github.com/Rohan-Shridhar/ciphex" target="_blank">
+    <div class="card-head">
+      <span class="repo-name">ciphex</span>
+      <span class="icon">🔐</span>
+    </div>
+    <p class="desc">An npm package for affine cipher encryption and decryption. Lightweight, zero-dependency, and fully typed for TypeScript projects.</p>
+    <div class="topics">
+      <span class="topic">npm</span>
+      <span class="topic">cryptography</span>
+      <span class="topic">affine-cipher</span>
+      <span class="topic">typescript</span>
+    </div>
+    <div class="card-footer">
+      <span class="lang"><span class="dot" style="background:#3178c6"></span>TypeScript</span>
+      <span class="npm-badge">npm</span>
+      <span class="gh-btn">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        view repo ↗
+      </span>
+    </div>
+  </a>
+
+</div>
+
+</body>
+</html>
