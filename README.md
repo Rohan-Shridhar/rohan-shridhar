@@ -38,41 +38,27 @@
 ### 📝 [Ciphex](https://github.com/Rohan-Shridhar/ciphex) - Npm package that provides encryption and decryption function for developers
   <img src="https://img.shields.io/github/contributors/rohan-shridhar/ciphex" />  <img src="https://img.shields.io/npm/dw/ciphex" /> 
 
-  
----
-<!---
-## 🗂️ Repositories
+[Explore more -->](https://rohan-shridhar.github.io/rohan-shridhar/)
 
-<p align="center">
-  <a href="https://github.com/rohan-shridhar/page-construction">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohan-shridhar&repo=page-construction" />
-  </a>
-
-  
-  <a href="https://github.com/rohan-shridhar/gridcraft">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohan-shridhar&repo=gridcraft" />
-  </a>
-</p>
 ---
-### ✍️ A Random Thought
-```txt
-Notion = productivity++
-````
--->
+
 ### 📊 GitHub Stats
 
-![GitHub Streak](https://streak-stats.demolab.com?user=rohan-shridhar&theme=rose)
+![GitHub Streak](https://streak-stats.demolab.com?user=rohan-shridhar&theme=dark)
+
 
 <!--
 <img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=great-gatsby&date_format=j%20M%5B%20Y%5D&card_height=185&hide_current_streak=true&hide_longest_streak=true" alt="Total contributions" width=300 height="350"/>
 
 <img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=highcontrast&date_format=j%20M%5B%20Y%5D&card_height=185&hide_total_contributions=true&hide_longest_streak=true" alt="GitHub Streak" width=300 height="350"/>
+--->
 
 <p align=center>
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rohan-shridhar&locale=en&hide_title=false&layout=compact&card_width=500&langs_count=6&theme=merko&hide_border=false&border="2" height="250" alt="languages graph"/>
 </p>
 
 
+<!--
 <p align="center">
   <img src="https://nirzak-streak-stats.vercel.app/?user=rohan-shridhar&theme=shadow_green&hide_border=false" alt="GitHub Streak" height="150"/>
 </p>
