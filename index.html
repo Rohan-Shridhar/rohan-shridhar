@@ -533,108 +533,123 @@
       const GITHUB_USERNAME = "Rohan-Shridhar";
       const REPO_NAMES = [
         "gridcraft",
+        "envguard",
         "ciphex",
         "portfolio",
         "page-construction",
         "javascript",
-        "to-do-list",
-        "notjs",
-        "earth",
       ];
 
-        async function init() {
+      async function init() {
+        try {
+          // Set avatar immediately using direct link (no API needed)
+          document.getElementById("user-avatar").src =
+            `https://github.com/${GITHUB_USERNAME}.png`;
+
+          // Parallel fetch of basic profile and contribution data
+          const [profileRes, contribRes] = await Promise.allSettled([
+            fetch(`https://api.github.com/users/${GITHUB_USERNAME}`),
+            fetch(
+              `https://github-contributions-api.jogruber.de/v4/${GITHUB_USERNAME}?last=1`,
+            ),
+          ]);
+
+          // Handle Profile
+          if (profileRes.status === "fulfilled" && profileRes.value.ok) {
+            const profile = await profileRes.value.json();
+            updateProfile(profile);
+          } else {
+            console.error("Profile fetch failed (likely rate limited)");
+            document.getElementById("user-name").innerText = GITHUB_USERNAME;
+          }
+
+          // Handle Contributions
+          if (contribRes.status === "fulfilled" && contribRes.value.ok) {
             try {
-                // Set avatar immediately using direct link (no API needed)
-                document.getElementById('user-avatar').src = `https://github.com/${GITHUB_USERNAME}.png`;
-                
-                // Parallel fetch of basic profile and contribution data
-                const [profileRes, contribRes] = await Promise.allSettled([
-                    fetch(`https://api.github.com/users/${GITHUB_USERNAME}`),
-                    fetch(`https://github-contributions-api.jogruber.de/v4/${GITHUB_USERNAME}?last=1`)
-                ]);
+              const data = await contribRes.value.json();
+              const total = Object.values(data.total).reduce(
+                (a, b) => a + b,
+                0,
+              );
+              document.getElementById("stat-contributions").innerText =
+                total.toLocaleString();
+            } catch (e) {
+              console.error("Could not parse contributions", e);
+            }
+          }
 
-                // Handle Profile
-                if (profileRes.status === 'fulfilled' && profileRes.value.ok) {
-                    const profile = await profileRes.value.json();
-                    updateProfile(profile);
-                } else {
-                    console.error("Profile fetch failed (likely rate limited)");
-                    document.getElementById('user-name').innerText = GITHUB_USERNAME;
-                }
+          // Optimization: Fetch all repos once to get BOTH the gallery data and the star count
+          // This saves N individual repo calls!
+          const allReposRes = await fetch(
+            `https://api.github.com/users/${GITHUB_USERNAME}/repos?per_page=100&sort=updated`,
+          );
+          if (allReposRes.ok) {
+            const allRepos = await allReposRes.json();
+            if (Array.isArray(allRepos)) {
+              renderReposOptimized(allRepos);
+            }
+          } else if (allReposRes.status === 403) {
+            throw new Error("Rate limit exceeded");
+          }
 
-                // Handle Contributions
-                if (contribRes.status === 'fulfilled' && contribRes.value.ok) {
-                    try {
-                        const data = await contribRes.value.json();
-                        const total = Object.values(data.total).reduce((a, b) => a + b, 0);
-                        document.getElementById('stat-contributions').innerText = total.toLocaleString();
-                    } catch(e) { console.error("Could not parse contributions", e); }
-                }
-
-                // Optimization: Fetch all repos once to get BOTH the gallery data and the star count
-                // This saves N individual repo calls!
-                const allReposRes = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?per_page=100&sort=updated`);
-                if (allReposRes.ok) {
-                    const allRepos = await allReposRes.json();
-                    if (Array.isArray(allRepos)) {
-                        renderReposOptimized(allRepos);
-                    }
-                } else if (allReposRes.status === 403) {
-                    throw new Error("Rate limit exceeded");
-                }
-
-                // Fetch issues
-                await renderIssues();
-
-            } catch (error) {
-                console.error("Init missed:", error);
-                if (error.message.includes('Rate limit')) {
-                    const grid = document.getElementById('repo-grid');
-                    grid.innerHTML = `<div style="grid-column: 1/-1; padding: 40px; text-align: center; color: var(--text-secondary);">
+          // Fetch issues
+          await renderIssues();
+        } catch (error) {
+          console.error("Init missed:", error);
+          if (error.message.includes("Rate limit")) {
+            const grid = document.getElementById("repo-grid");
+            grid.innerHTML = `<div style="grid-column: 1/-1; padding: 40px; text-align: center; color: var(--text-secondary);">
                         <p>GitHub API Rate Limit Reached 🚦</p>
                         <p style="font-size: 0.8rem; margin-top: 10px;">The gallery will return automatically once the limit resets (usually within an hour).</p>
                     </div>`;
-                }
-            } finally {
-                // Ensure loader always hides
-                document.getElementById('loader').style.opacity = '0';
-                setTimeout(() => {
-                    document.getElementById('loader').style.display = 'none';
-                }, 500);
-            }
+          }
+        } finally {
+          // Ensure loader always hides
+          document.getElementById("loader").style.opacity = "0";
+          setTimeout(() => {
+            document.getElementById("loader").style.display = "none";
+          }, 500);
+        }
+      }
+
+      function updateProfile(data) {
+        document.getElementById("user-name").innerText =
+          data.name || data.login;
+        document.getElementById("user-bio").innerText =
+          data.bio || `Passionate developer building things with code.`;
+        document.getElementById("stat-repos").innerText =
+          data.public_repos || 0;
+        document.getElementById("explore-github").href =
+          `https://github.com/search?q=owner%3A${GITHUB_USERNAME}+++&type=issues&state=open`;
+      }
+
+      function renderReposOptimized(allRepos) {
+        const grid = document.getElementById("repo-grid");
+
+        // Calculate total stars from all repos
+        const totalStars = allRepos.reduce(
+          (acc, repo) => acc + (repo.stargazers_count || 0),
+          0,
+        );
+        document.getElementById("stat-stars").innerText = totalStars;
+
+        // Filter for the repos we want to feature
+        const featuredRepos = REPO_NAMES.map((name) =>
+          allRepos.find((r) => r.name.toLowerCase() === name.toLowerCase()),
+        ).filter(Boolean);
+
+        if (featuredRepos.length === 0) {
+          grid.innerHTML = `<div style="grid-column: 1/-1; padding: 40px; text-align: center; color: var(--text-secondary);">No matching repositories found to display.</div>`;
         }
 
-        function updateProfile(data) {
-            document.getElementById('user-name').innerText = data.name || data.login;
-            document.getElementById('user-bio').innerText = data.bio || `Passionate developer building things with code.`;
-            document.getElementById('stat-repos').innerText = data.public_repos || 0;
-            document.getElementById('explore-github').href = `https://github.com/search?q=owner%3A${GITHUB_USERNAME}+++&type=issues&state=open`;
-        }
+        featuredRepos.forEach((repo, index) => {
+          const card = document.createElement("a");
+          card.className = "repo-card";
+          card.href = repo.html_url;
+          card.target = "_blank";
+          card.style.transitionDelay = `${index * 100}ms`;
 
-        function renderReposOptimized(allRepos) {
-            const grid = document.getElementById('repo-grid');
-            
-            // Calculate total stars from all repos
-            const totalStars = allRepos.reduce((acc, repo) => acc + (repo.stargazers_count || 0), 0);
-            document.getElementById('stat-stars').innerText = totalStars;
-
-            // Filter for the repos we want to feature
-            const featuredRepos = REPO_NAMES.map(name => 
-                allRepos.find(r => r.name.toLowerCase() === name.toLowerCase())
-            ).filter(Boolean);
-
-            if (featuredRepos.length === 0) {
-                grid.innerHTML = `<div style="grid-column: 1/-1; padding: 40px; text-align: center; color: var(--text-secondary);">No matching repositories found to display.</div>`;
-            }
-
-            featuredRepos.forEach((repo, index) => {
-                const card = document.createElement('a');
-                card.className = 'repo-card';
-                card.href = repo.html_url;
-                card.target = '_blank';
-                card.style.transitionDelay = `${index * 100}ms`;
-
-                card.innerHTML = `
+          card.innerHTML = `
                     <div class="card-header">
                         <span class="repo-name">${repo.name}</span>
                         <div class="star-count">
@@ -642,58 +657,72 @@
                             ${repo.stargazers_count}
                         </div>
                     </div>
-                    <p class="repo-desc">${repo.description || 'No description provided.'}</p>
+                    <p class="repo-desc">${repo.description || "No description provided."}</p>
                     <div class="topics">
-                        ${repo.topics ? repo.topics.slice(0, 3).map(t => `<span class="topic">${t}</span>`).join('') : ''}
+                        ${
+                          repo.topics
+                            ? repo.topics
+                                .slice(0, 3)
+                                .map((t) => `<span class="topic">${t}</span>`)
+                                .join("")
+                            : ""
+                        }
                     </div>
                     <div class="card-footer">
                         <div class="language">
                             <span class="lang-dot" style="background: ${getLangColor(repo.language)}"></span>
-                            ${repo.language || 'Plain Text'}
+                            ${repo.language || "Plain Text"}
                         </div>
                         <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" style="opacity: 0.5"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
                     </div>
                 `;
-                grid.appendChild(card);
-                
-                // Trigger animation
-                setTimeout(() => card.classList.add('loaded'), 50);
-            });
-        }
+          grid.appendChild(card);
 
-        async function renderIssues() {
-            const container = document.getElementById('issue-container');
-            try {
-                const res = await fetch(`https://api.github.com/search/issues?q=user:${GITHUB_USERNAME}+is:open+is:issue`);
-                if (!res.ok) throw new Error("Issues fetch failed");
+          // Trigger animation
+          setTimeout(() => card.classList.add("loaded"), 50);
+        });
+      }
 
-                const data = await res.json();
-                document.getElementById('issue-count').innerText = `${data.total_count || 0} Open`;
+      async function renderIssues() {
+        const container = document.getElementById("issue-container");
+        try {
+          const res = await fetch(
+            `https://api.github.com/search/issues?q=user:${GITHUB_USERNAME}+is:open+is:issue`,
+          );
+          if (!res.ok) throw new Error("Issues fetch failed");
 
-                if (!data.items || !Array.isArray(data.items) || data.items.length === 0) {
-                    container.innerHTML = `<div style="padding: 20px; font-size: 0.8rem; color: var(--text-secondary); text-align: center;">No active issues found. All systems go! 🚀</div>`;
-                    return;
-                }
+          const data = await res.json();
+          document.getElementById("issue-count").innerText =
+            `${data.total_count || 0} Open`;
 
-                data.items.slice(0, 5).forEach(issue => {
-                    const item = document.createElement('a');
-                    item.className = 'issue-item';
-                    item.href = issue.html_url;
-                    item.target = '_blank';
-                    
-                    const repoName = issue.repository_url.split('/').pop();
-                    
-                    item.innerHTML = `
+          if (
+            !data.items ||
+            !Array.isArray(data.items) ||
+            data.items.length === 0
+          ) {
+            container.innerHTML = `<div style="padding: 20px; font-size: 0.8rem; color: var(--text-secondary); text-align: center;">No active issues found. All systems go! 🚀</div>`;
+            return;
+          }
+
+          data.items.slice(0, 5).forEach((issue) => {
+            const item = document.createElement("a");
+            item.className = "issue-item";
+            item.href = issue.html_url;
+            item.target = "_blank";
+
+            const repoName = issue.repository_url.split("/").pop();
+
+            item.innerHTML = `
                         <div class="issue-title">${issue.title}</div>
                         <div class="issue-meta">${repoName} #${issue.number}</div>
                     `;
-                    container.appendChild(item);
-                });
-            } catch(e) {
-                console.error("Could not fetch issues", e);
-                container.innerHTML = `<div style="padding: 20px; font-size: 0.8rem; color: var(--text-secondary); text-align: center;">Issues temporarily unavailable (Rate limited).</div>`;
-            }
+            container.appendChild(item);
+          });
+        } catch (e) {
+          console.error("Could not fetch issues", e);
+          container.innerHTML = `<div style="padding: 20px; font-size: 0.8rem; color: var(--text-secondary); text-align: center;">Issues temporarily unavailable (Rate limited).</div>`;
         }
+      }
 
       function getLangColor(lang) {
         const colors = {
@@ -711,8 +740,8 @@
       }
 
       // Toggle issues panel
-      document.querySelector('.issues-header').addEventListener('click', () => {
-        document.getElementById('issues-panel').classList.toggle('expanded');
+      document.querySelector(".issues-header").addEventListener("click", () => {
+        document.getElementById("issues-panel").classList.toggle("expanded");
       });
 
       init();
