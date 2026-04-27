@@ -65,7 +65,7 @@
 --->
 
 ### 📸 Meme of the week
-<img src="https://i.imgflip.com/aofalb.jpg" width="350" />
+<img src="https://i.imgflip.com/aqa0ii.jpg" width="300"/>
 
 
 ### 🌐 Connect with me
