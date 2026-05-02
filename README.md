@@ -15,7 +15,7 @@
   </a>
 </p>
 
-> You can view my portfolio by clicking the icon above.
+
 ---
 ## ✍️ About me  
 
