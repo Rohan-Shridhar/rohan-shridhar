@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://rohan-shridhar.github.io/portfolio/">
-    <img src="https://github.com/user-attachments/assets/1850d32b-e503-4169-b2fe-7a488c3f89df" width=110 title="Click me!">
+    <img src="https://github.com/user-attachments/assets/1850d32b-e503-4169-b2fe-7a488c3f89df" width=110 title="Punch me!!">
   </a>
 </p>
 
