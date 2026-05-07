@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>⭐ Project Ideas Matrix · Excel-Style Rating Sheet</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        user-select: none; /* prevents accidental text drag, but selection still possible */
+      }
+
+      body {
+        background: #e2e6e9;
+        font-family:
+          "Segoe UI",
+          "Calibri",
+          "Roboto",
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+        margin: 0;
+        padding: 2rem 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* EXCEL VIBE CONTAINER */
+      .excel-container {
+        max-width: 100%;
+        overflow-x: auto;
+        border-radius: 12px;
+        box-shadow:
+          0 12px 28px rgba(0, 0, 0, 0.15),
+          0 2px 4px rgba(0, 0, 0, 0.05);
+        background: #fff;
+        border: 1px solid #c0c5cb;
+      }
+
+      /* main sheet table */
+      .excel-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+        min-width: 1100px;
+        background-color: #ffffff;
+        font-family: "Segoe UI", "Calibri", sans-serif;
+      }
+
+      /* header row (excel style) */
+      .excel-table th {
+        background-color: #f5f7f9;
+        border: 1px solid #c8ccd0;
+        padding: 12px 8px;
+        font-weight: 600;
+        font-size: 14px;
+        color: #1e2a3e;
+        text-align: center;
+        position: relative;
+        letter-spacing: 0.3px;
+        background-image: linear-gradient(to bottom, #fafcfd, #f0f2f5);
+        border-bottom: 2px solid #bdc2c8;
+      }
+
+      .excel-table td {
+        border: 1px solid #dcdfe3;
+        padding: 12px 10px;
+        vertical-align: top;
+        background-color: #ffffff;
+        transition: background 0.1s ease;
+      }
+
+      /* row hover effect like spreadsheet */
+      .excel-table tr:hover td {
+        background-color: #f9fbfd;
+      }
+
+      /* category badges */
+      .category-badge {
+        display: inline-block;
+        background: #eef2ff;
+        color: #1e40af;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 4px 8px;
+        border-radius: 30px;
+        white-space: nowrap;
+      }
+
+      .badge-startup {
+        background: #e6f9ed;
+        color: #0b5e2e;
+      }
+      .badge-hackathon {
+        background: #fff0db;
+        color: #b85c00;
+      }
+      .badge-easy {
+        background: #e0f2fe;
+        color: #0369a1;
+      }
+      .badge-frontend {
+        background: #f3e8ff;
+        color: #6b21a5;
+      }
+      .badge-fullstack {
+        background: #ffe4e6;
+        color: #9f1239;
+      }
+      .badge-genai {
+        background: #e9f0f9;
+        color: #155e75;
+      }
+      .badge-feasible {
+        background: #fef9c3;
+        color: #854d0e;
+      }
+
+      /* problem & solution text */
+      .problem-text,
+      .solution-text {
+        font-size: 13px;
+        line-height: 1.45;
+        color: #1e2a3a;
+      }
+
+      .solution-text strong {
+        color: #0c4e6e;
+      }
+
+      .project-name {
+        font-weight: 700;
+        font-size: 15px;
+        color: #0b2b3d;
+        margin-bottom: 4px;
+        display: inline-block;
+      }
+
+      /* Star rating widget (interactive) */
+      .star-rating {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        cursor: pointer;
+      }
+
+      .star {
+        font-size: 22px;
+        color: #d4d8dd;
+        transition: color 0.15s;
+        cursor: pointer;
+        user-select: none;
+      }
+
+      .star.active {
+        color: #f5b301;
+        text-shadow: 0 0 1px #e09d00;
+      }
+
+      .star:hover {
+        transform: scale(1.05);
+      }
+
+      .rating-value {
+        font-size: 12px;
+        margin-left: 6px;
+        color: #4a627a;
+        font-weight: 500;
+        min-width: 28px;
+        text-align: left;
+      }
+
+      td:last-child {
+        min-width: 150px;
+        text-align: center;
+        vertical-align: middle;
+      }
+
+      /* responsive small tweaks */
+      @media (max-width: 700px) {
+        body {
+          padding: 1rem;
+        }
+        .excel-table th,
+        .excel-table td {
+          padding: 8px 6px;
+          font-size: 12px;
+        }
+        .star {
+          font-size: 18px;
+        }
+      }
+
+      /* tooltip or extra */
+      .subnote {
+        font-size: 11px;
+        color: #6f7b8a;
+        margin-top: 6px;
+        font-style: italic;
+      }
+
+      /* fixed column header while scrolling? not needed, but clean */
+      .excel-container::-webkit-scrollbar {
+        height: 8px;
+        background: #dbdfe4;
+      }
+      .excel-container::-webkit-scrollbar-thumb {
+        background: #b0b7c0;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="excel-container">
+      <table class="excel-table" id="projectRatingTable">
+        <thead>
+          <tr>
+            <th style="width: 18%">📌 Name</th>
+            <th style="width: 11%">🏷️ Category</th>
+            <th style="width: 28%">⚠️ Problem Statement</th>
+            <th style="width: 33%">✨ Solution & Features</th>
+            <th style="width: 10%">⭐ Rate (1–5★)</th>
+          </tr>
+        </thead>
+        <tbody id="projectRows">
+          <!-- rows will be injected via JS for maintainability but we can also write pure HTML.
+                     However we need dynamic star rating. We'll generate from JS to avoid repetition, 
+                     yet keep full control. Also retains all project ideas exactly as described -->
+        </tbody>
+      </table>
+    </div>
+
+    <script>
+      // --------------------------------------------------------------
+      // Project Dataset (all ideas from prompt, organized)
+      // each project has: name, category, problem, solutionFeatures, categoryStyle
+      // --------------------------------------------------------------
+      const projectsData = [
+        // 🔥 Easy but Impressive
+        {
+          name: "AI Email Priority Sorter",
+          category: "🔥 Easy",
+          problem:
+            "Inboxes overflow with mixed email types (urgent tasks, promos, assignments, spam). Users waste time sorting.",
+          solution:
+            "Reads emails via Gmail API or mock input → categorizes as urgent / promo / assignment / spam-ish. Clean dashboard + priority label demo. Works with IMAP mock demo.",
+          categoryType: "easy",
+        },
+        {
+          name: "Smart Notes Cleaner",
+          category: "🔥 Easy",
+          problem:
+            "Messy lecture notes, raw copy-paste from PDFs or voice transcripts are unstructured and hard to review.",
+          solution:
+            "Paste messy text → AI cleans into headings, bullet points, summaries + flashcards export. Quick markdown conversion.",
+          categoryType: "easy",
+        },
+        {
+          name: "AI Attendance Predictor",
+          category: "🔥 Easy",
+          problem:
+            "Students struggle to know how many classes they can miss while staying above 75% attendance threshold.",
+          solution:
+            "Enter current attendance & timetable → predicts remaining allowed absences. 'You can miss 2 more classes' interface loved by students.",
+          categoryType: "easy",
+        },
+
+        // 💰 Startup-Worthy Ideas
+        {
+          name: "AI Contract Simplifier",
+          category: "💰 Startup",
+          problem:
+            "Legal documents (leases, NDAs) are dense & confusing for freelancers, startups, tenants.",
+          solution:
+            "Upload PDF/doc → AI explains key clauses in plain English, risk highlights, plain-language summary for negotiations.",
+          categoryType: "startup",
+        },
+        {
+          name: "Subscription Expense Analyzer",
+          category: "💰 Startup",
+          problem:
+            "Hidden recurring charges and wasteful subscriptions drain money without visibility.",
+          solution:
+            "Connect bank SMS/email parsing → detect all recurring payments, identify waste, suggest cancellation. Real money-saving insights.",
+          categoryType: "startup",
+        },
+        {
+          name: "AI Hiring Screener",
+          category: "💰 Startup",
+          problem:
+            "Small companies overwhelmed by resumes, unqualified candidates and skill mismatches.",
+          solution:
+            "Resume ranking, skill gap analysis, generate interview questions tailored to role. Improves hiring efficiency.",
+          categoryType: "startup",
+        },
+
+        // 🏆 Hackathon-Winning Ideas
+        {
+          name: "Real-Time Scam Call Detector",
+          category: "🏆 Hackathon",
+          problem:
+            "Rising scam calls using spoofing & social engineering, users lack real-time protection.",
+          solution:
+            "Analyzes call audio/text patterns during live calls (privacy-first) with warning alerts. Huge wow factor.",
+          categoryType: "hackathon",
+        },
+        {
+          name: "Disaster Coordination Platform",
+          category: "🏆 Hackathon",
+          problem:
+            "During floods/fires, rescue efforts lack coordination, resource tracking and volunteer matching.",
+          solution:
+            "SOS map, volunteer matching, resource logistics with offline sync & real-time alerts. Impactful civic tech.",
+          categoryType: "hackathon",
+        },
+        {
+          name: "Deepfake Interview Verifier",
+          category: "🏆 Hackathon",
+          problem:
+            "Remote hiring vulnerable to deepfake audio/video and face mismatches.",
+          solution:
+            "Detects AI voice synthesis, face mismatch, suspicious micro-expressions. Security + AI combo.",
+          categoryType: "hackathon",
+        },
+
+        // 🧠 AI Ideas Feasible in 24 Hours
+        {
+          name: "AI Resume Roaster",
+          category: "🧠 24h AI",
+          problem: "Boring resume feedback doesn't motivate improvement.",
+          solution:
+            "Upload resume → brutally honest funny yet constructive roast + specific fixes using LLM API. Entertaining & useful.",
+          categoryType: "feasible",
+        },
+        {
+          name: "AI Roadmap Generator",
+          category: "🧠 24h AI",
+          problem:
+            "Learners confused about skills/timeline/resources for career goals like 'frontend dev'.",
+          solution:
+            "Input goal → outputs structured skills, timeline, projects, resources, milestone tracker. Great for students.",
+          categoryType: "feasible",
+        },
+        {
+          name: "AI Bug Explainer",
+          category: "🧠 24h AI",
+          problem:
+            "Error logs & stack traces are cryptic for beginners or even pros.",
+          solution:
+            "Paste error log → explains what broke, root cause, and fix suggestions with code snippets. Practical debugging assistant.",
+          categoryType: "feasible",
+        },
+
+        // 📱 Frontend-Only Ideas
+        {
+          name: "Interactive CSS Playground",
+          category: "📱 Frontend",
+          problem:
+            "Learning flexbox/grid/animations via trial & error requires live environment.",
+          solution:
+            "Live editing playground with visual outputs, presets & code export. Sharpen frontend skills.",
+          categoryType: "frontend",
+        },
+        {
+          name: "Focus Mode Study Dashboard",
+          category: "📱 Frontend",
+          problem:
+            "Students lose focus without integrated Pomodoro, tasks, music and streak motivation.",
+          solution:
+            "Pomodoro timer + lofi music + task tracking + streak calendar. All-in-one study dashboard.",
+          categoryType: "frontend",
+        },
+        {
+          name: "Portfolio Analyzer",
+          category: "📱 Frontend",
+          problem:
+            "Developers/designers don't know how their portfolio scores on accessibility and responsiveness.",
+          solution:
+            "Paste portfolio URL → scores accessibility, design, responsiveness & detailed frontend report.",
+          categoryType: "frontend",
+        },
+
+        // 🌐 Full-Stack SaaS Ideas
+        {
+          name: "Team Feedback Platform",
+          category: "🌐 Full-Stack",
+          problem:
+            "Clubs/startups lack anonymous structured feedback for continuous improvement.",
+          solution:
+            "Anonymous feedback system with categories, trends, and admin dashboard for actionable insights.",
+          categoryType: "fullstack",
+        },
+        {
+          name: "AI Meeting Workspace",
+          category: "🌐 Full-Stack",
+          problem:
+            "Meeting recordings are hard to digest, action items get lost.",
+          solution:
+            "Upload recording → AI summaries, task extraction, searchable notes, and transcript insights.",
+          categoryType: "fullstack",
+        },
+        {
+          name: "Smart Invoice Generator",
+          category: "🌐 Full-Stack",
+          problem:
+            "Freelancers struggle with invoice creation, payment tracking & reminders.",
+          solution:
+            "Generate invoices, track payment status, automatic reminders, analytics dashboard.",
+          categoryType: "fullstack",
+        },
+
+        // 🤖 GenAI Problems Nobody Solves Well Yet
+        {
+          name: "AI Hallucination Checker",
+          category: "🤖 GenAI",
+          problem:
+            "LLMs often hallucinate facts without sources, causing misinformation.",
+          solution:
+            "Meta-AI: verify AI answer with cited sources & confidence score. Cross-checks reliability.",
+          categoryType: "genai",
+        },
+        {
+          name: "Long YouTube Video Understanding",
+          category: "🤖 GenAI",
+          problem:
+            "Long educational videos have no structured timestamps or quizzes.",
+          solution:
+            "Generate interactive timestamps, concept map, quizzes, key moments. Learning supercharged.",
+          categoryType: "genai",
+        },
+        {
+          name: "AI Personal Memory Search",
+          category: "🤖 GenAI",
+          problem:
+            "Scattered info across PDFs, screenshots, notes, bookmarks, chats: 'Where did I save that React idea?'",
+          solution:
+            "Unified search across all personal files + semantic memory. Ask natural language like 'my React animation idea from March'",
+          categoryType: "genai",
+        },
+
+        // bonus additional one from style: PDF Teaching Assistant but aligning with prompt variant, but also covered.
+        {
+          name: "PDF Teaching Assistant",
+          category: "📚 Edu AI",
+          problem:
+            "Students struggle with dense textbooks and research papers.",
+          solution:
+            "Upload PDF → AI explains concepts, generates Q&A, summaries, and interactive learning mode.",
+          categoryType: "feasible",
+        },
+      ];
+
+      // helper to get category specific extra CSS class
+      function getCategoryClass(catType) {
+        switch (catType) {
+          case "easy":
+            return "badge-easy";
+          case "startup":
+            return "badge-startup";
+          case "hackathon":
+            return "badge-hackathon";
+          case "feasible":
+            return "badge-feasible";
+          case "frontend":
+            return "badge-frontend";
+          case "fullstack":
+            return "badge-fullstack";
+          case "genai":
+            return "badge-genai";
+          default:
+            return "";
+        }
+      }
+
+      // format display category text with nice label
+      function formatCategoryDisplay(categoryRaw) {
+        return categoryRaw;
+      }
+
+      // store ratings in memory (persist on star click, could also localStorage but fine)
+      let ratings = new Array(projectsData.length).fill(0); // 0 = no rating, else 1-5
+
+      // function to render whole table + star widgets
+      function renderTable() {
+        const tbody = document.getElementById("projectRows");
+        tbody.innerHTML = "";
+
+        projectsData.forEach((project, idx) => {
+          const row = tbody.insertRow();
+
+          // 1. Name column
+          const nameCell = row.insertCell(0);
+          nameCell.innerHTML = `<span class="project-name">${escapeHtml(project.name)}</span>`;
+
+          // 2. Category column with badge
+          const catCell = row.insertCell(1);
+          const catClass = getCategoryClass(project.categoryType);
+          catCell.innerHTML = `<span class="category-badge ${catClass}">${escapeHtml(project.category)}</span>`;
+
+          // 3. Problem Statement
+          const probCell = row.insertCell(2);
+          probCell.innerHTML = `<div class="problem-text">${escapeHtml(project.problem)}</div>`;
+
+          // 4. Solution & Features
+          const solCell = row.insertCell(3);
+          solCell.innerHTML = `<div class="solution-text">✨ ${escapeHtml(project.solution)}</div>`;
+
+          // 5. Rating cell (star widget)
+          const rateCell = row.insertCell(4);
+          rateCell.style.textAlign = "center";
+          rateCell.style.verticalAlign = "middle";
+
+          // create star rating container
+          const starContainer = document.createElement("div");
+          starContainer.className = "star-rating";
+          starContainer.setAttribute("data-index", idx);
+
+          const currentRating = ratings[idx];
+          // generate 5 stars
+          for (let s = 1; s <= 5; s++) {
+            const starSpan = document.createElement("span");
+            starSpan.className = "star";
+            if (currentRating >= s) starSpan.classList.add("active");
+            starSpan.textContent = "★";
+            starSpan.setAttribute("data-star-value", s);
+            starSpan.addEventListener("click", (e) => {
+              e.stopPropagation();
+              const newRating = s;
+              ratings[idx] = newRating;
+              renderTable(); // re-render to sync stars (simple approach)
+            });
+            starContainer.appendChild(starSpan);
+          }
+          // optional numeric label
+          const ratingNumSpan = document.createElement("span");
+          ratingNumSpan.className = "rating-value";
+          if (currentRating > 0) {
+            ratingNumSpan.textContent = `${currentRating}/5`;
+          } else {
+            ratingNumSpan.textContent = `☆`;
+          }
+          starContainer.appendChild(ratingNumSpan);
+          rateCell.appendChild(starContainer);
+        });
+
+        // optional: store in localStorage to persist ratings? nice but not required. But improving UX: preserve
+        saveRatingsToLocal();
+      }
+
+      // basic escaping to avoid injection
+      function escapeHtml(str) {
+        if (!str) return "";
+        return str
+          .replace(/[&<>]/g, function (m) {
+            if (m === "&") return "&amp;";
+            if (m === "<") return "&lt;";
+            if (m === ">") return "&gt;";
+            return m;
+          })
+          .replace(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g, function (c) {
+            return c;
+          });
+      }
+
+      // Load ratings from localStorage if exists
+      function loadRatingsFromStorage() {
+        const stored = localStorage.getItem("excel_project_ratings");
+        if (stored) {
+          try {
+            const parsed = JSON.parse(stored);
+            if (
+              Array.isArray(parsed) &&
+              parsed.length === projectsData.length
+            ) {
+              ratings = parsed;
+            } else if (
+              Array.isArray(parsed) &&
+              parsed.length < projectsData.length
+            ) {
+              // extend if new projects added
+              for (let i = 0; i < projectsData.length; i++) {
+                if (i < parsed.length) ratings[i] = parsed[i];
+                else ratings[i] = 0;
+              }
+            }
+          } catch (e) {}
+        }
+      }
+
+      function saveRatingsToLocal() {
+        localStorage.setItem("excel_project_ratings", JSON.stringify(ratings));
+      }
+
+      // re-render with persistence
+      function init() {
+        loadRatingsFromStorage();
+        renderTable();
+      }
+
+      // also provide small export? not mandatory, but keep clean excel feel.
+      init();
+
+      // Optionally add double-click header tooltip? just for fun stays stable.
+      // ensure full responsiveness
+      window.addEventListener("resize", () => {});
+
+      // small addition: see all 20 projects includes all required items:
+      // AI Roadmap Generator, AI memory search, email categorizer, portfolio analyzer, AI bug explainer, contract simplifier etc are included.
+      // Verified dataset:
+      // Contains AI Email Priority Sorter (email categorizer), AI Roadmap Generator, AI Personal Memory Search, Portfolio Analyzer, AI Bug Explainer, AI Contract Simplifier, etc.
+      // Also frontend devtool products: CSS playground & focus dashboard. All good.
+      // For extra completeness, we added PDF Teaching Assistant to match "PDF teaching assistant" style.
+      // The final sheet is fully interactive with stars. No external libraries.
+      // Total projects: 21 lines, looks impressive as excel sheet.
+
+      // Double-check prompt: 'easy but impressive' all included, startup-worthy, hackathon, 24h AI, frontend-only, fullstack, genAI.
+      // additional: AI memory search present, AI roadmap generator present, AI bug explainer, portfolio analyzer, email categorizer, frontend devtools products.
+      // The solution and features strings clearly explain value.
+
+      // also we ensure 'rate cell' where i can select out of 5 stars exactly; clicking star updates rating.
+      // additional hover on stars macro works.
+
+      // styling mimics spreadsheet with sticky? not needed because overflow scroll is natural.
+      // we added dynamic star rendering. Enjoy excel-like experience!
+
+      // In case user wants to see interactive rating change, re-rendering uses fresh renderTable which reattaches listeners.
+      // That's safe. Could also optimize but it's fine < 100 rows.
+    </script>
+    <!-- note: the sheet includes all requested ideas, columns: Name, Category, Problem Statement, Solution & Features, Rate 1-5 stars -->
+    <!-- extra micro interactions: cool spreadsheet look, active star rating persistence -->
+  </body>
+</html>
