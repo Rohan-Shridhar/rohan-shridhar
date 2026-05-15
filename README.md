@@ -63,10 +63,11 @@
   <img src="https://nirzak-streak-stats.vercel.app/?user=rohan-shridhar&theme=shadow_green&hide_border=false" alt="GitHub Streak" height="150"/>
 </p>
 
+--->
+
 
 ### 📸 Meme of the week
 <img src="https://i.imgflip.com/aqa0ii.jpg" width="300"/>
---->
 
 ### 🌐 Connect with me
 <p align=center>
