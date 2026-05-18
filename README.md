@@ -65,8 +65,8 @@
 --->
 
 
-### 📸 Meme of the week
-<img src="https://i.imgflip.com/aqa0ii.jpg" width="300"/>
+### 📸 Meme of the week. 
+<img src="https://i.imgflip.com/as2kb3.jpg" title="made at imgflip.com" width="300"/>
 
 ### 🌐 Connect with me
 <p align=center>
