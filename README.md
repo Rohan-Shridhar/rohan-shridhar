@@ -41,6 +41,10 @@
 
 ---
 
+## 🌍 My open source contributions
+### 🔍 [QR snipper](https://github.com/renuthomas/qr-code-snipper) - Chrome extension that can be used to scann qr code and store the urls locally
+---
+
 ### 📊 GitHub Stats
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=rohan-shridhar&theme=dark)
