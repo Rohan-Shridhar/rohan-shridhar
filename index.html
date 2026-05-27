@@ -531,14 +531,7 @@
     <script>
       // CONFIGURATION: Add your repo names here
       const GITHUB_USERNAME = "Rohan-Shridhar";
-      const REPO_NAMES = [
-        "gridcraft",
-        "envguard",
-        "ciphex",
-        "portfolio",
-        "page-construction",
-        "javascript",
-      ];
+      
 
       async function init() {
         try {
@@ -624,63 +617,53 @@
       }
 
       function renderReposOptimized(allRepos) {
-        const grid = document.getElementById("repo-grid");
+  const grid = document.getElementById("repo-grid");
 
-        // Calculate total stars from all repos
-        const totalStars = allRepos.reduce(
-          (acc, repo) => acc + (repo.stargazers_count || 0),
-          0,
-        );
-        document.getElementById("stat-stars").innerText = totalStars;
+  // Calculate total stars from all repos
+  const totalStars = allRepos.reduce(
+    (acc, repo) => acc + (repo.stargazers_count || 0),
+    0,
+  );
+  document.getElementById("stat-stars").innerText = totalStars;
 
-        // Filter for the repos we want to feature
-        const featuredRepos = REPO_NAMES.map((name) =>
-          allRepos.find((r) => r.name.toLowerCase() === name.toLowerCase()),
-        ).filter(Boolean);
+  if (!Array.isArray(allRepos) || allRepos.length === 0) {
+    grid.innerHTML = `<div style="grid-column: 1/-1; padding: 40px; text-align: center; color: var(--text-secondary);">No repositories available to display.</div>`;
+    return;
+  }
 
-        if (featuredRepos.length === 0) {
-          grid.innerHTML = `<div style="grid-column: 1/-1; padding: 40px; text-align: center; color: var(--text-secondary);">No matching repositories found to display.</div>`;
-        }
+  allRepos.forEach((repo, index) => {
+    const card = document.createElement("a");
+    card.className = "repo-card";
+    card.href = repo.html_url;
+    card.target = "_blank";
+    card.style.transitionDelay = `${index * 100}ms`;
 
-        featuredRepos.forEach((repo, index) => {
-          const card = document.createElement("a");
-          card.className = "repo-card";
-          card.href = repo.html_url;
-          card.target = "_blank";
-          card.style.transitionDelay = `${index * 100}ms`;
+    card.innerHTML = `
+      <div class="card-header">
+        <span class="repo-name">${repo.name}</span>
+        <div class="star-count">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.787 1.4 8.169-7.334-3.857-7.333 3.857 1.4-8.169-5.933-5.787 8.199-1.192z"/></svg>
+          ${repo.stargazers_count}
+        </div>
+      </div>
+      <p class="repo-desc">${repo.description || "No description provided."}</p>
+      <div class="topics">
+        ${repo.topics ? repo.topics.slice(0, 3).map((t) => `<span class="topic">${t}</span>`).join("") : ""}
+      </div>
+      <div class="card-footer">
+        <div class="language">
+          <span class="lang-dot" style="background: ${getLangColor(repo.language)}"></span>
+          ${repo.language || "Plain Text"}
+        </div>
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" style="opacity: 0.5"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      </div>
+    `;
+    grid.appendChild(card);
+    setTimeout(() => card.classList.add("loaded"), 50);
+  });
+}
 
-          card.innerHTML = `
-                    <div class="card-header">
-                        <span class="repo-name">${repo.name}</span>
-                        <div class="star-count">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.431 8.2 1.192-5.934 5.787 1.4 8.169-7.334-3.857-7.333 3.857 1.4-8.169-5.933-5.787 8.199-1.192z"/></svg>
-                            ${repo.stargazers_count}
-                        </div>
-                    </div>
-                    <p class="repo-desc">${repo.description || "No description provided."}</p>
-                    <div class="topics">
-                        ${
-                          repo.topics
-                            ? repo.topics
-                                .slice(0, 3)
-                                .map((t) => `<span class="topic">${t}</span>`)
-                                .join("")
-                            : ""
-                        }
-                    </div>
-                    <div class="card-footer">
-                        <div class="language">
-                            <span class="lang-dot" style="background: ${getLangColor(repo.language)}"></span>
-                            ${repo.language || "Plain Text"}
-                        </div>
-                        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" style="opacity: 0.5"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-                    </div>
-                `;
-          grid.appendChild(card);
 
-          // Trigger animation
-          setTimeout(() => card.classList.add("loaded"), 50);
-        });
       }
 
       async function renderIssues() {
