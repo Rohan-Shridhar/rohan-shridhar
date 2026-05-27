@@ -178,6 +178,34 @@
         margin: 8px auto;
       }
 
+      /* Filter Tabs */
+      .filter-tabs {
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      .filter-tab {
+        padding: 6px 12px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        font-family: var(--font-mono);
+        color: var(--text-secondary);
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      .filter-tab:hover {
+        background: var(--card-hover);
+        border-color: var(--border-active);
+        color: var(--accent);
+      }
+      .filter-tab.active {
+        background: var(--accent-glow);
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
       .grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -522,10 +550,16 @@
     </header>
 
     <div class="gallery-title">Gallery</div>
-
-    <main class="grid" id="repo-grid">
-      <!-- Repos will be injected here -->
-    </main>
+<div class="filter-tabs">
+  <button class="filter-tab active" data-category="All">All</button>
+  <button class="filter-tab" data-category="Flex">Flex</button>
+  <button class="filter-tab" data-category="Tools">Tools</button>
+  <button class="filter-tab" data-category="Gallery">Gallery</button>
+  <button class="filter-tab" data-category="Open Source">Open Source</button>
+</div>
+<main class="grid" id="repo-grid">
+  <!-- Repos will be injected here -->
+</main>
 
     <div class="issues-corner" id="issues-panel">
       <div class="issues-header">
@@ -714,6 +748,40 @@ function getCategoryColor(category) {
     `;
     grid.appendChild(card);
     setTimeout(() => card.classList.add("loaded"), 50);
+  });
+  setupFilters();
+}
+
+// Setup filter tab click handlers
+function setupFilters() {
+  const tabs = document.querySelectorAll('.filter-tab');
+  const cards = document.querySelectorAll('.repo-card');
+  // Ensure all cards are visible initially
+  cards.forEach(card => {
+    card.style.display = '';
+    card.classList.add('loaded');
+  });
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelector('.filter-tab.active')?.classList.remove('active');
+      tab.classList.add('active');
+      const category = tab.dataset.category;
+      cards.forEach(card => {
+        const match = category === 'All' || card.dataset.category === category;
+        if (match) {
+          card.style.display = '';
+          // trigger reflow then add loaded for animation
+          requestAnimationFrame(() => {
+            card.classList.add('loaded');
+          });
+        } else {
+          // hide with no animation
+          card.classList.remove('loaded');
+          card.style.display = 'none';
+        }
+      });
+    });
   });
 }
 
