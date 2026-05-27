@@ -178,6 +178,36 @@
         margin: 8px auto;
       }
 
+      /* Search Bar */
+      .search-container {
+        position: relative;
+        max-width: 500px;
+        margin: 0 auto 20px auto;
+      }
+      .search-container input {
+        width: 100%;
+        padding: 8px 12px 8px 36px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        font-family: var(--font-main);
+        color: var(--text-primary);
+        outline: none;
+        box-sizing: border-box;
+      }
+      .search-container input::placeholder {
+        color: var(--text-secondary);
+      }
+      .search-container::before {
+        content: "🔍";
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1rem;
+        color: var(--text-secondary);
+      }
+
       /* Filter Tabs */
       .filter-tabs {
         display: flex;
@@ -206,6 +236,7 @@
         color: var(--accent);
       }
 
+      /* Grid */
       .grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -549,7 +580,9 @@
       </div>
     </header>
 
-    <div class="gallery-title">Gallery</div>
+    <div class="search-container">
+  <input type="text" id="search-input" placeholder="Search repositories...">
+</div>
 <div class="filter-tabs">
   <button class="filter-tab active" data-category="All">All</button>
   <button class="filter-tab" data-category="Flex">Flex</button>
@@ -557,9 +590,11 @@
   <button class="filter-tab" data-category="Gallery">Gallery</button>
   <button class="filter-tab" data-category="Open Source">Open Source</button>
 </div>
+
 <main class="grid" id="repo-grid">
   <!-- Repos will be injected here -->
 </main>
+<div id="no-results" class="no-results" style="display:none; grid-column:1/-1; text-align:center; color:var(--text-secondary); padding:20px;">No repositories match your search.</div>
 
     <div class="issues-corner" id="issues-panel">
       <div class="issues-header">
@@ -752,38 +787,48 @@ function getCategoryColor(category) {
   setupFilters();
 }
 
-// Setup filter tab click handlers
 function setupFilters() {
   const tabs = document.querySelectorAll('.filter-tab');
-  const cards = document.querySelectorAll('.repo-card');
-  // Ensure all cards are visible initially
-  cards.forEach(card => {
-    card.style.display = '';
-    card.classList.add('loaded');
-  });
+  const searchInput = document.getElementById('search-input');
+  const noResultsDiv = document.getElementById('no-results');
+  let activeCategory = 'All';
+
+  const applyFilters = () => {
+    const query = searchInput.value.trim().toLowerCase();
+    const cards = document.querySelectorAll('.repo-card');
+    let anyVisible = false;
+    cards.forEach(card => {
+      const matchesCategory = activeCategory === 'All' || card.dataset.category === activeCategory;
+      const name = card.querySelector('.repo-name')?.textContent.toLowerCase() || '';
+      const desc = card.querySelector('.repo-desc')?.textContent.toLowerCase() || '';
+      const matchesSearch = !query || name.includes(query) || desc.includes(query);
+      if (matchesCategory && matchesSearch) {
+        card.style.display = '';
+        requestAnimationFrame(() => card.classList.add('loaded'));
+        anyVisible = true;
+      } else {
+        card.classList.remove('loaded');
+        card.style.display = 'none';
+      }
+    });
+    noResultsDiv.style.display = anyVisible ? 'none' : 'block';
+  };
 
   tabs.forEach(tab => {
     tab.addEventListener('click', () => {
       document.querySelector('.filter-tab.active')?.classList.remove('active');
       tab.classList.add('active');
-      const category = tab.dataset.category;
-      cards.forEach(card => {
-        const match = category === 'All' || card.dataset.category === category;
-        if (match) {
-          card.style.display = '';
-          // trigger reflow then add loaded for animation
-          requestAnimationFrame(() => {
-            card.classList.add('loaded');
-          });
-        } else {
-          // hide with no animation
-          card.classList.remove('loaded');
-          card.style.display = 'none';
-        }
-      });
+      activeCategory = tab.dataset.category;
+      applyFilters();
     });
   });
+
+  searchInput.addEventListener('input', applyFilters);
+  applyFilters();
 }
+
+
+
 
 
       async function renderIssues() {
