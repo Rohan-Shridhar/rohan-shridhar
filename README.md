@@ -85,7 +85,18 @@
 ---
 
 ## 🌍 My open source contributions
-### 🔍 [QR snipper](https://github.com/renuthomas/qr-code-snipper) - Chrome extension that can be used to scann qr code and store the urls locally
+
+<table>
+  <tr>
+    <td width="50%" valign="center" align="center">
+      <img src="images/qrcode.png"/>
+    <td width="50%">
+      <h3><a href="https://github.com/renuthomas/qr-code-snipper">QR Snipper<a/></h3>
+      <h5>Chrome extension that can be used to snip qr code from the window and store the urls locally
+      <br/> by <a href="https://github.com/renuthomas">renuthomas<a/></h5>
+  </tr>
+</table>
+
 ---
 
 ### 📊 GitHub Stats
