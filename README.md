@@ -19,13 +19,24 @@
 ---
 ## ✍️ About me  
 
-<h3><i>
+<h4><i>
 🧑‍🎓 CS UG Student from BMSCE, Bangalore  <br>
 🧑‍💻 Learning Fullstack Web Development  <br>
 🌍 Contributing open source projects  <br>
 🤝 Always open to collaborate  <br>
-</h3></i>
+</h4></i>
 
+## 💻 Tech stack
+
+<p>
+<img src="https://skillicons.dev/icons?i=js,html,css,react,vite" />
+  <br/>
+<img src="https://skillicons.dev/icons?i=java,c,cpp,python,md" />
+  <br/>
+<img src="https://skillicons.dev/icons?i=mysql,mongodb" />
+  <br/>
+<img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
+</p>
 
 ## 🧩 My popular projects
 ### 🎨 [Gridcraft](https://rohan-shridhar.github.io/gridcraft/) - Pixel art application with 16x16 grid and download image feature
@@ -47,9 +58,13 @@
 
 ### 📊 GitHub Stats
 
-![GitHub Streak](https://streak-stats.demolab.com?user=rohan-shridhar&theme=dark)
+<p align="center">  
+<img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=dark" />
+<br/>
+<img src="https://komarev.com/ghpvc/?username=rohan-shridhar&label=Profile%20Views&color=8A6B11&style=for-the-badge" />
 
-
+<p/>
+  
 <!--
 <img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=great-gatsby&date_format=j%20M%5B%20Y%5D&card_height=185&hide_current_streak=true&hide_longest_streak=true" alt="Total contributions" width=300 height="350"/>
 
@@ -70,16 +85,23 @@
 
 
 ### 📸 Meme of the week. 
+
+<p align="center">
 <img src="https://i.imgflip.com/asny7r.jpg" title="meme car" width="400" />
+<p/>
 
 ### 🌐 Connect with me
 <p align=center>
-  <a href="https://github.com/rohan-shridhar" target="_blank"><img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
-    <a href="https://dev.to/rohan_mirjankar" target="_blank"><img src="https://img.shields.io/badge/Community-black?style=for-the-badge" 
-alt="Dev community" ></a>
-  <a href="https://linkedin.com/in/rohan-mirjankar" target="_blank"><img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
-  <a href="https://instagram.com/rohan.mirjankar" target="_blank"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" /></a>
-  <a href="https://twitter.com/Rohan_shridhar" target="_blank"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="twitter" /></a>
+  <a href="https://github.com/rohan-shridhar" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" /></a>
+  <a href="https://dev.to/rohan_mirjankar" target="_blank">
+      <img src="https://skillicons.dev/icons?i=devto" /></a>
+  <a href="https://linkedin.com/in/rohan-mirjankar" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="https://instagram.com/rohan.mirjankar" target="_blank">
+    <img src="https://skillicons.dev/icons?i=instagram" /></a></a>
+  <a href="https://twitter.com/Rohan_shridhar" target="_blank">
+    <img src="https://skillicons.dev/icons?i=twitter" /></a></a>
 </p>
 
 <!--
