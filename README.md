@@ -39,16 +39,48 @@
 </p>
 
 ## 🧩 My popular projects
-### 🎨 [Gridcraft](https://rohan-shridhar.github.io/gridcraft/) - Pixel art application with 16x16 grid and download image feature
-  <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" />
 
-### 🚧 [Page construction](https://page-construction-five.vercel.app/) - Temporary webpage for maintainance purposes
-  <img src="https://img.shields.io/github/contributors/rohan-shridhar/page-construction" />
+<table>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="images/heart.png" width="50%" />
+    <td width="50%">
+      <h3><a href="https://rohan-shridhar.github.io/gridcraft/">Gridcraft<a/><h3/>
+      <h5>Pixel art application with adjustable grid and download image feature<h5/>
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" />
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="images/construction.jpg" width="50%" />
+    <td width="50%">
+      <h3><a href="https://page-construction-five.vercel.app/">Page Construction<a/><h3/>
+      <h5>Temporary webpage for maintainance purposes<h5/>
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/page-construction" />   
+  </tr>
+</table>
 
-### 📝 [Ciphex](https://github.com/Rohan-Shridhar/ciphex) - Npm package that provides encryption and decryption function for developers
-  <img src="https://img.shields.io/github/contributors/rohan-shridhar/ciphex" />  <img src="https://img.shields.io/npm/d18m/ciphex" />
+## 🧰 NPM Packages
 
-[Explore more ---->](https://rohan-shridhar.github.io/rohan-shridhar/)
+<table>
+  <tr>
+    <td width="50%" valign="center" align="center">
+      <img src="images/ciphex.jpg" width="50%" />
+    <td width="50%">
+      <h3><a href="www.npmjs.com/package/ciphex?activeTab=readme">Ciphex<a/><h3/>
+      <h5>Lightweight text encryption & decryption combining Vigenère and Affine ciphers<h5/>
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/ciphex" />  <img src="https://img.shields.io/npm/d18m/ciphex" /> 
+  </tr>
+  <tr>
+    <td width="50%" valign="center" align="center">
+      <img src="images/envguard.png" width="50%" />
+    <td width="50%">
+      <h3><a href="https://www.npmjs.com/package/@rohansm14/envguard?activeTab=readme">Envguard<a/>       <h3/>
+      <h5>A zero-boilerplate environment variable validator and analysis tool for Node.js.<h5/>
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/envguard" />  <img src="https://img.shields.io/npm/d18m/@rohansm14/envguard" />
+  
+  </tr>
+</table>
+
 
 ---
 
