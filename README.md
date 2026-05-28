@@ -29,7 +29,7 @@
 ## 💻 Tech stack
 
 <p>
-<img src="https://skillicons.dev/icons?i=js,html,css,react,vite" />
+<img src="https://skillicons.dev/icons?i=js,html,css,react,vite,babel" />
   <br/>
 <img src="https://skillicons.dev/icons?i=java,c,cpp,python,md" />
   <br/>
