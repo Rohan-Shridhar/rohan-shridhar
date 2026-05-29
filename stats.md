@@ -41,7 +41,10 @@ alt="Linus's GitHub Contributions" />
 
 ![Rohan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rohan-shridhar&show_icons=true&theme=rose)
 
-
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=torvalds&theme=react-dark&hide_border=true&radius=10" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rohan-shridhar&theme=react-dark&hide_border=true&radius=10" width="100%"/>
+</p>
 
 [![Profile Visits](https://komarev.com/ghpvc/?username=rohan-shridhar&color=0000FF)](https://github.com/avs-abhishek123)
 [![Profile Visits](https://komarev.com/ghpvc/?username=torvalds&color=0000FF)](https://github.com/avs-abhishek123)
