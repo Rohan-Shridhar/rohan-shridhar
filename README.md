@@ -42,7 +42,7 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="center" align="center">
       <img src="images/heart.png" width="50%" />
     <td width="50%">
       <h3><a href="https://rohan-shridhar.github.io/gridcraft/">Gridcraft<a/><h3/>
@@ -50,7 +50,7 @@
       <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" />
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="center" align="center">
       <img src="images/construction.jpg" width="50%" />
     <td width="50%">
       <h3><a href="https://page-construction-five.vercel.app/">Page Construction<a/><h3/>
