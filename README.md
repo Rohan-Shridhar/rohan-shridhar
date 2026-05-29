@@ -47,7 +47,7 @@
     <td width="50%">
       <h3><a href="https://rohan-shridhar.github.io/gridcraft/">Gridcraft<a/><h3/>
       <h5>Pixel art application with adjustable grid and download image feature<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" />
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" /><img src="https://skillicons.dev/icons?i=react,babel"  align="right"/>
   </tr>
   <tr>
     <td width="50%" valign="center" align="center">
@@ -55,7 +55,7 @@
     <td width="50%">
       <h3><a href="https://page-construction-five.vercel.app/">Page Construction<a/><h3/>
       <h5>Temporary webpage for maintainance purposes<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/page-construction" />   
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/page-construction" /><img src="https://skillicons.dev/icons?i=react,css,vite"  align="right"/>  
   </tr>
 </table>
 
@@ -68,7 +68,7 @@
     <td width="50%">
       <h3><a href="www.npmjs.com/package/ciphex?activeTab=readme">Ciphex<a/><h3/>
       <h5>Lightweight text encryption & decryption combining Vigenère and Affine ciphers<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/ciphex" />  <img src="https://img.shields.io/npm/d18m/ciphex" /> 
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/ciphex" />  <img src="https://img.shields.io/npm/d18m/ciphex" /> <img src="https://skillicons.dev/icons?i=js" align="right"/>
   </tr>
   <tr>
     <td width="50%" valign="center" align="center">
@@ -76,7 +76,7 @@
     <td width="50%">
       <h3><a href="https://www.npmjs.com/package/@rohansm14/envguard?activeTab=readme">Envguard<a/>       <h3/>
       <h5>A zero-boilerplate environment variable validator and analysis tool for Node.js.<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/envguard" />  <img src="https://img.shields.io/npm/d18m/@rohansm14/envguard" />
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/envguard" />  <img src="https://img.shields.io/npm/d18m/@rohansm14/envguard" />  <img src="https://skillicons.dev/icons?i=js"  align="right"/>
   
   </tr>
 </table>
@@ -92,8 +92,8 @@
       <img src="images/qrcode.png"/>
     <td width="50%">
       <h3><a href="https://github.com/renuthomas/qr-code-snipper">QR Snipper<a/></h3>
-      <h5>Chrome extension that can be used to snip qr code from the window and store the urls locally
-      <br/> by <a href="https://github.com/renuthomas">renuthomas<a/></h5>
+      <h5>Chrome extension that can be used to snip qr code from the window and store the urls locally - by <a href="https://github.com/renuthomas">renuthomas<a/></h5>
+        <img src="https://skillicons.dev/icons?i=js" align="right"/>
   </tr>
 </table>
 
