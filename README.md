@@ -89,10 +89,18 @@
 <table>
   <tr>
     <td width="50%" valign="center" align="center">
-      <img src="images/qrcode.png"/>
+      <img src="images/qrcode.png" width="50%"/>
     <td width="50%">
       <h3><a href="https://github.com/renuthomas/qr-code-snipper">QR Snipper<a/></h3>
       <h5>Chrome extension that can be used to snip qr code from the window and store the urls locally - by <a href="https://github.com/renuthomas">renuthomas<a/></h5>
+        <img src="https://skillicons.dev/icons?i=js" align="right"/>
+  </tr>
+  <tr>
+    <td width="50%" valign="center" align="center">
+      <img src="images/plus.avif" width="50%"/>
+    <td width="50%">
+      <h3><a href="https://github.com/vallabhatech/CareSync">CareSync<a/></h3>
+      <h5>A smart, modular web app for medicine tracking, symptom checking, and clinic discovery, making healthcare simple and accessible. - by <a href="https://github.com/vallabhatech">vallabhatech<a/></h5>
         <img src="https://skillicons.dev/icons?i=js" align="right"/>
   </tr>
 </table>
