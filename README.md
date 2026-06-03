@@ -103,6 +103,14 @@
       <h5>A smart, modular web app for medicine tracking, symptom checking, and clinic discovery, making healthcare simple and accessible. - by <a href="https://github.com/vallabhatech">vallabhatech<a/></h5>
         <img src="https://skillicons.dev/icons?i=js" align="right"/>
   </tr>
+    <tr>
+    <td width="50%" valign="center" align="center">
+      <img src="images/vote.jpg" width="50%"/>
+    <td width="50%">
+      <h3><a href="https://github.com/smrithipiedy/BallotIQ">BallotIQ<a/></h3>
+      <h5>BallotIQ is an election process education platform where users can learn about elections in different countries by either interacting with the assistant or learning through tailored, informative learning modules and quizzes. - by <a href="https://github.com/smrithipiedy">smrithipiedy<a/></h5>
+        <img src="https://skillicons.dev/icons?i=ts" align="right"/>
+  </tr>
 </table>
 
 ---
