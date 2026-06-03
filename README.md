@@ -93,6 +93,7 @@
     <td width="50%">
       <h3><a href="https://github.com/renuthomas/qr-code-snipper">QR Snipper<a/></h3>
       <h5>Chrome extension that can be used to snip qr code from the window and store the urls locally - by <a href="https://github.com/renuthomas">renuthomas<a/></h5>
+        <h4>PRs: <a href="https://github.com/renuthomas/qr-code-snipper/pull/2">#2<a/>, <a href="https://github.com/renuthomas/qr-code-snipper/pull/4">#4<a/>, <a href="https://github.com/renuthomas/qr-code-snipper/pull/8">#8<a/></h4>
         <img src="https://skillicons.dev/icons?i=js" align="right"/>
   </tr>
   <tr>
@@ -101,6 +102,7 @@
     <td width="50%">
       <h3><a href="https://github.com/vallabhatech/CareSync">CareSync<a/></h3>
       <h5>A smart, modular web app for medicine tracking, symptom checking, and clinic discovery, making healthcare simple and accessible. - by <a href="https://github.com/vallabhatech">vallabhatech<a/></h5>
+        <h4>PRs: <a href="https://github.com/vallabhatech/CareSync/pull/6">#6<a/></h4>
         <img src="https://skillicons.dev/icons?i=js" align="right"/>
   </tr>
     <tr>
@@ -109,6 +111,7 @@
     <td width="50%">
       <h3><a href="https://github.com/smrithipiedy/BallotIQ">BallotIQ<a/></h3>
       <h5>BallotIQ is an election process education platform where users can learn about elections in different countries by either interacting with the assistant or learning through tailored, informative learning modules and quizzes. - by <a href="https://github.com/smrithipiedy">smrithipiedy<a/></h5>
+        <h4>Prs: <a href="https://github.com/smrithipiedy/BallotIQ/pull/2">#2<a/>, <a href="https://github.com/smrithipiedy/BallotIQ/pull/7">#7<a/><h4/>
         <img src="https://skillicons.dev/icons?i=ts" align="right"/>
   </tr>
 </table>
