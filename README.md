@@ -116,6 +116,8 @@
   </tr>
 </table>
 
+[Explore all projects---->](https://rohan-shridhar.github.io/rohan-shridhar/)
+
 ---
 
 ### 📊 GitHub Stats
