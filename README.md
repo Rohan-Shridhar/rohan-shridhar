@@ -151,7 +151,7 @@
 ### 📸 Meme of the week. 
 
 <p align="center">
-<img src="https://i.imgflip.com/asny7r.jpg" title="meme car" width="400" />
+<img src="https://i.imgflip.com/att6wk.jpg" title="made at imgflip.com"/>
 <p/>
 
 ### 🌐 Connect with me
