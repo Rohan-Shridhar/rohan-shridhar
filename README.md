@@ -102,7 +102,7 @@
     <td width="50%">
       <h3><a href="https://github.com/vallabhatech/CareSync">CareSync<a/></h3>
       <h5>A smart, modular web app for medicine tracking, symptom checking, and clinic discovery, making healthcare simple and accessible. - by <a href="https://github.com/vallabhatech">vallabhatech<a/></h5>
-        <h4>PRs: <a href="https://github.com/vallabhatech/CareSync/pull/6">#6<a/></h4>
+        <h4>PRs: <a href="https://github.com/vallabhatech/CareSync/pull/6">#6<a/>, <a href="https://github.com/vallabhatech/CareSync/pull/51">#51<a/></h4>
         <img src="https://skillicons.dev/icons?i=js" align="right"/>
   </tr>
     <tr>
