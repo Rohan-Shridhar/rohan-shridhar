@@ -1,12 +1,13 @@
-
-<!--
-
+<p align="center">
+  <a href="https://rohan-shridhar.github.io/portfolio/">
 <img width="1020" height="392" alt="image" src="https://github.com/user-attachments/assets/021ea2b2-95d2-4ac2-b99a-a381be460e11" />
---->
+  </a>
+</p>
+<!--
 
 <img width="1105" height="475" alt="image" src="https://github.com/user-attachments/assets/102db0df-8d29-4c28-bda0-c3bb68c53763" />
 
-
+--->
 
 <!--
 <p align="center">
@@ -145,7 +146,7 @@
   <img src="https://nirzak-streak-stats.vercel.app/?user=rohan-shridhar&theme=shadow_green&hide_border=false" alt="GitHub Streak" height="150"/>
 </p>
 
---->
+
 
 
 ### 📸 Meme of the week. 
@@ -153,6 +154,8 @@
 <p align="center">
 <img src="https://i.imgflip.com/att6wk.jpg" title="made at imgflip.com"/>
 <p/>
+
+--->
 
 ### 🌐 Connect with me
 <p align=center>
