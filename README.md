@@ -50,19 +50,19 @@
       <h5>Pixel art application with adjustable grid and download image feature<h5/>
       <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" /><img src="https://skillicons.dev/icons?i=react,babel"  align="right"/>
   </tr>
-  <tr>
-    <td width="50%" valign="center" align="center">
-      <img src="images/construction.jpg" width="50%" />
-    <td width="50%">
-      <h3><a href="https://page-construction-five.vercel.app/">Page Construction<a/><h3/>
-      <h5>Temporary webpage for maintainance purposes<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/page-construction" /><img src="https://skillicons.dev/icons?i=react,css,vite"  align="right"/>  
-  </tr>
 </table>
 
 ## 🧰 NPM Packages
 
 <table>
+    <tr>
+    <td width="50%" valign="center" align="center">
+      <img src="images/builder.png" width="50%" />
+    <td width="50%">
+      <h3><a href="https://www.npmjs.com/package/@rohansm14/react-pages">React-pages<a/><h3/>
+      <h5>A React component library for plug-and-play utility pages, starting with a fully customizable 404<h5/>
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/react-pages" /> <img src="https://img.shields.io/npm/d18m/@rohansm14/react-pages" />  <img src="https://skillicons.dev/icons?i=react,css,vite"  align="right"/>  
+  </tr>
   <tr>
     <td width="50%" valign="center" align="center">
       <img src="images/ciphex.jpg" width="50%" />
@@ -76,7 +76,7 @@
       <img src="images/envguard.png" width="50%" />
     <td width="50%">
       <h3><a href="https://www.npmjs.com/package/@rohansm14/envguard?activeTab=readme">Envguard<a/>       <h3/>
-      <h5>A zero-boilerplate environment variable validator and analysis tool for Node.js.<h5/>
+      <h5>A zero-boilerplate environment variable validator and analysis tool for Node.js<h5/>
       <img src="https://img.shields.io/github/contributors/rohan-shridhar/envguard" />  <img src="https://img.shields.io/npm/d18m/@rohansm14/envguard" />  <img src="https://skillicons.dev/icons?i=js"  align="right"/>
   
   </tr>
