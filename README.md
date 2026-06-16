@@ -127,7 +127,15 @@
 <img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=dark" />
 <br/>
 <img src="https://komarev.com/ghpvc/?username=rohan-shridhar&label=Profile%20Views&color=8A6B11&style=for-the-badge" />
+<br/>
 
+### My ELUSOC 2026 Badges!
+
+<a href="https://www.edulinkup.dev/elusoc/profile/Rohan-Shridhar">
+  <img src="https://www.edulinkup.dev/elusoc/images/ticket/spawnling.png" width="60" alt="Spawnling" />
+  <img src="https://www.edulinkup.dev/elusoc/images/ticket/stone_coder.png" width="60" alt="Stone Coder" />
+  <img src="https://www.edulinkup.dev/elusoc/images/ticket/iron_developer.png" width="60" alt="Iron Developer" />
+</a>
 <p/>
   
 <!--
