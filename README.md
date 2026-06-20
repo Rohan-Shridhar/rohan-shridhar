@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://rohan-shridhar.github.io/portfolio/">
+  <a href="https://rohan-mirjankar.carrd.co/">
 <img width="1020" height="392" alt="image" src="https://github.com/user-attachments/assets/021ea2b2-95d2-4ac2-b99a-a381be460e11" />
   </a>
 </p>
