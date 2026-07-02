@@ -15,7 +15,7 @@
     <img src="https://github.com/user-attachments/assets/1850d32b-e503-4169-b2fe-7a488c3f89df" width=110 title="Punch me!!">
   </a>
 </p>
---->
+
 
 ---
 ## ✍️ About me  
@@ -26,6 +26,8 @@
 🌍 Contributing open source projects  <br>
 🤝 Always open to collaborate  <br>
 </h4></i>
+
+--->
 
 ## 💻 Tech stack
 
