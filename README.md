@@ -16,18 +16,17 @@
   </a>
 </p>
 
-
+--->
 ---
 ## ✍️ About me  
 
 <h4><i>
-🧑‍🎓 CS UG Student from BMSCE, Bangalore  <br>
-🧑‍💻 Learning Fullstack Web Development  <br>
-🌍 Contributing open source projects  <br>
-🤝 Always open to collaborate  <br>
+🧑‍🎓 CS Undergrad @ BMS College of Engineering, Bengaluru  <br/>
+💻 Building my skills in Full Stack Web Development  <br/>
+🌱 Actively contributing to Open Source  <br/>
+🤝 Always up for a good collab — hit me up!  <br/>
 </h4></i>
 
---->
 
 ## 💻 Tech stack
 
