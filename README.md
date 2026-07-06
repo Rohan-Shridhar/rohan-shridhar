@@ -162,7 +162,9 @@
 ### 📸 Meme of the week. 
 
 <p align="center">
-<img src="https://i.imgflip.com/auej2w.jpg" title="made at imgflip.com"/>
+  
+<img width="500" alt="WhatsApp Image 2026-07-05 at 7 18 25 PM" src="https://github.com/user-attachments/assets/db1db373-443a-4612-a876-be41cd59dee2" />
+
 <p/>
 
 
