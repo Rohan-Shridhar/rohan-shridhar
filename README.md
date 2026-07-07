@@ -163,7 +163,7 @@
 
 <p align="center">
   
-<img width="500" alt="WhatsApp Image 2026-07-05 at 7 18 25 PM" src="https://github.com/user-attachments/assets/db1db373-443a-4612-a876-be41cd59dee2" />
+<img width="400" alt="WhatsApp Image 2026-07-05 at 7 18 25 PM" src="https://github.com/user-attachments/assets/db1db373-443a-4612-a876-be41cd59dee2" />
 
 <p/>
 
