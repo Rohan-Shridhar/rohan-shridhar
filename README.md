@@ -163,8 +163,8 @@
 ### 📸 Meme of the week. 
 
 <p align="center">
-  
-<img width="400" alt="WhatsApp Image 2026-07-05 at 7 18 25 PM" src="https://github.com/user-attachments/assets/db1db373-443a-4612-a876-be41cd59dee2" />
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/0a8a0afb-b564-421b-b35d-6801a1b407a6" />
 
 <p/>
 
