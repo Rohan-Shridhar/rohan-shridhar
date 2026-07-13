@@ -85,7 +85,7 @@
 
 
 ---
-
+<!---
 ## 🌍 My open source contributions
 
 <table>
@@ -117,6 +117,7 @@
         <img src="https://skillicons.dev/icons?i=ts" align="right"/>
   </tr>
 </table>
+--->
 
 [Explore all projects---->](https://rohan-shridhar.github.io/rohan-shridhar/)
 
