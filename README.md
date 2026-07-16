@@ -40,7 +40,7 @@
 <img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
 </p>
 
-## 🧩 My popular projects
+<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=800080&text=Projects&section=header&textBg=false&fontColor=fff&fontSize=50&fontAlignY=46&fontAlign=29&animation=fadeIn"/>
 
 <table>
   <tr>
@@ -83,6 +83,7 @@
   </tr>
 </table>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=800080&section=footer&textBg=false&fontColor=fff&fontSize=50&fontAlignY=46&fontAlign=29&animation=fadeIn&reversal=true"/>
 
 ---
 <!---
