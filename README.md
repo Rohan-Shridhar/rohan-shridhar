@@ -59,7 +59,7 @@
     <td width="50%" valign="center" align="center">
       <img src="images/clipboard.png" width="50%" />
     <td width="50%">
-      <h3><a href="https://rohan-shridhar.github.io/Kravoxin/">Kravoxin<a/><h3/>
+      <h3><a href="https://github.com/Rohan-Shridhar/Kravoxin">Kravoxin<a/><h3/>
       <h5>Browser extension for storing copied itmes along with categorisation and editing<h5/>
       <img src="https://img.shields.io/github/contributors/rohan-shridhar/Kravoxin" /><img src="https://skillicons.dev/icons?i=js,html,css"  align="right"/>
   </tr>
