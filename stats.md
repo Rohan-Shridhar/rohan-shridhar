@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rohan-shridhar/rohan-shridhar/output/github-contribution-grid-snake.svg" />
+</p>
+
 
 <img width="570"
 src="https://github-readme-stats.vercel.app/api?username=rohan-shridhar&theme=dark&show=prs_merged,prs_merged_percentage&show_icons=true&include_all_commits=false&count_private=true"
