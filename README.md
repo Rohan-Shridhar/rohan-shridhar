@@ -57,9 +57,9 @@
   </tr>
   <tr>
     <td width="50%" valign="center" align="center">
-      <img src="images/heart.png" width="50%" />
+      <img src="https://githu.com/rohan-shridhar/Hoptab/icons/icon128.png" width="50%" />
     <td width="50%">
-      <h3><a href="https://rohan-shridhar.github.io/HopTab/">Gridcraft<a/><h3/>
+      <h3><a href="https://rohan-shridhar.github.io/HopTab/">HopTab<a/><h3/>
       <h5>Browser extension for quick navigation across favorite sites<h5/>
       <img src="https://img.shields.io/github/contributors/rohan-shridhar/HopTab" /><img src="https://skillicons.dev/icons?i=js,html,css" align="right"/>
   </tr>
