@@ -181,6 +181,8 @@
     <img src="https://skillicons.dev/icons?i=instagram" /></a></a>
   <a href="https://twitter.com/Rohan_shridhar" target="_blank">
     <img src="https://skillicons.dev/icons?i=twitter" /></a></a>
+    <a href="https://peerlist.io/rohannn" target="_blank">
+    <img src="https://www.google.com/s2/favicons?domain=peerlist.io&sz=48" /></a></a>
 </p>
 
 <!--
