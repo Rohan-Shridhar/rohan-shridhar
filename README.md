@@ -82,7 +82,7 @@
     <td width="50%">
       <h3><a href="https://www.npmjs.com/package/@rohansm14/envguard?activeTab=readme">Envguard<a/>       <h3/>
       <h5>A zero-boilerplate environment variable validator and analysis tool for Node.js<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/envguard" />  <img src="https://img.shields.io/npm/d18m/@rohansm14/envguard" />  <img src="https://skillicons.dev/icons?i=js"  align="right"/> 
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/envguard" />  <img src="https://img.shields.io/npm/d18m/@rohansm14/envguard" />  <img src="https://skillicons.dev/icons?i=js,npm"  align="right"/> 
   </tr>
     <tr>
     <td width="50%" valign="center" align="center">
@@ -90,7 +90,7 @@
     <td width="50%">
       <h3><a href="https://www.npmjs.com/package/@rohansm14/react-pages">React-pages<a/><h3/>
       <h5>A React component library for plug-and-play utility pages, starting with a fully customizable 404<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/react-pages" /> <img src="https://img.shields.io/npm/d18m/@rohansm14/react-pages" />  <img src="https://skillicons.dev/icons?i=react,css,vite"  align="right"/>  
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/react-pages" /> <img src="https://img.shields.io/npm/d18m/@rohansm14/react-pages" />  <img src="https://skillicons.dev/icons?i=react,css,vite,npm"  align="right"/>  
   </tr>
 <!---
   <tr>
