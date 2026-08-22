@@ -53,7 +53,7 @@
     <td width="50%">
       <h3><a href="https://gridcraft-by-me.vercel.app/">Gridcraft<a/><h3/>
       <h5>Pixel art application with adjustable grid and download image feature<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" /><img src="https://skillicons.dev/icons?i=react,babel"  align="right"/>
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" /><img src="https://skillicons.dev/icons?i=react,html,css"  align="right"/>
   </tr>
   <tr>
     <td width="50%" valign="center" align="center">
