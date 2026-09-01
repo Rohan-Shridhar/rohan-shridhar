@@ -49,6 +49,7 @@ alt="Linus's GitHub Contributions" />
 [![Profile Visits](https://komarev.com/ghpvc/?username=rohan-shridhar&color=0000FF)](https://github.com/avs-abhishek123)
 [![Profile Visits](https://komarev.com/ghpvc/?username=torvalds&color=0000FF)](https://github.com/avs-abhishek123)
 
+<!--
 
 [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=torvalds)](https://github.com/LordDashMe/github-contribution-stats/)
 
