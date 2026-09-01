@@ -24,12 +24,18 @@
 ---
 ## ✍️ About me  
 
-<h4><i>
-🧑‍🎓 CS Undergrad @ BMS College of Engineering, Bengaluru  <br/>
-💻 Building my skills in Full Stack Web Development  <br/>
-🌱 Actively contributing to Open Source  <br/>
-🤝 Always up for a good collab — hit me up!  <br/>
-</h4></i>
+<i>
+<h3>
+  
+```txt
+🧑‍🎓 CS Undergrad @ BMS College of Engineering, Bengaluru 
+💻 Building my skills in Full Stack Web Development  
+🌱 Actively contributing to Open Source 
+🤝 Always up for a good collab — hit me up!  
+```
+
+</h3>
+</i>
 
 
 ## 💻 Tech stack
