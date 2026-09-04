@@ -38,16 +38,16 @@
 </i>
 
 
-## 💻 Tech stack
+## 💻 Skills
 
 <p>
-<img src="https://skillicons.dev/icons?i=js,html,css,react,vite,babel" />
+Core Development: <img src="https://skillicons.dev/icons?i=js,html,css,react,vite" />
   <br/>
-<img src="https://skillicons.dev/icons?i=java,c,cpp,python,md" />
+Exploring: <img src="https://skillicons.dev/icons?i=java,c,cpp,python,md" />
   <br/>
-<img src="https://skillicons.dev/icons?i=mysql,mongodb" />
+Databases: <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
   <br/>
-<img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
+Tools: <img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=800080&text=Projects&section=header&textBg=false&fontColor=fff&fontSize=50&fontAlignY=46&fontAlign=29&animation=fadeIn"/>
