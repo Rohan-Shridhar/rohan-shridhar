@@ -154,9 +154,6 @@ Tools: <img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
 
 ### 📊 GitHub Stats
 
-
-<h2 align="center">🏆 GitHub Trophies</h2>
-
 <p align="center">
   <img src="https://trophy.ryglcloud.net/?username=rohan-shridhar&theme=radical&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="GitHub Trophies" />
 </p>
