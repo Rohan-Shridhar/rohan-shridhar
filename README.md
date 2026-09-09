@@ -41,7 +41,7 @@
 ## 💻 Skills
 
 <p>
-Core Development: <img src="https://skillicons.dev/icons?i=js,html,css,react,vite" />
+Core Development: <img src="https://skillicons.dev/icons?i=js,html,css,react,vite,nodejs" />
   <br/>
 Exploring: <img src="https://skillicons.dev/icons?i=java,c,cpp,python,md" />
   <br/>
