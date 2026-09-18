@@ -41,7 +41,7 @@
 ## 💻 Skills
 
 <p>
-Core Development: <img src="https://skillicons.dev/icons?i=js,html,css,react,vite,nodejs" />
+Core Development: <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,vite,nodejs" />
   <br/>
 Exploring: <img src="https://skillicons.dev/icons?i=java,c,cpp,python,md" />
   <br/>
@@ -162,7 +162,9 @@ Tools: <img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
 <p align="center">  
 <img src="https://streak-stats.demolab.com?user=rohan-shridhar&theme=dark" />
 <br/>
-<img src="https://komarev.com/ghpvc/?username=rohan-shridhar&label=Profile%20Views&color=8A6B11&style=for-the-badge" />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=rohan-shridhar&label=Profile+Views&color=0000FF&style=for-the-badge"/>
+</p>
 <br/>
 
 <!--
