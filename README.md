@@ -67,7 +67,7 @@ Tools: <img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
     <td width="50%">
       <h3><a href="https://ai-trash-trace.vercel.app/">Trashtrace<a/><h3/>
       <h5>QR-based waste tracking system using geolocation to monitor and verify waste shipments.<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/trashtrace" /><img src="https://skillicons.dev/icons?i=node,react,html,css"  align="right"/>
+      <img src="https://img.shields.io/github/contributors/rohan-shridhar/trashtrace" /><img src="https://skillicons.dev/icons?i=nodejs,react,html,css"  align="right"/>
   </tr>
 </table>
         
