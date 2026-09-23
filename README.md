@@ -57,7 +57,7 @@ Tools: <img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
     <td width="50%" valign="center" align="center">
       <img src="images/heart.png" width="50%" />
     <td width="50%">
-      <h3><a href="ttps://gridcraft-by-me.vercel.app/">Gridcraft<a/><h3/>
+      <h3><a href="https://gridcraft-by-me.vercel.app/">Gridcraft<a/><h3/>
       <h5>Pixel art application with adjustable grid and download image feature<h5/>
       <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" /><img src="https://skillicons.dev/icons?i=react,html,css"  align="right"/>
   </tr>
