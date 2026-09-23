@@ -61,6 +61,11 @@ Tools: <img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
       <h5>Pixel art application with adjustable grid and download image feature<h5/>
       <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" /><img src="https://skillicons.dev/icons?i=react,html,css"  align="right"/>
   </tr>
+</table>
+        
+ ## Browser Extensions
+        
+<table> 
   <tr>
     <td width="50%" valign="center" align="center">
       <img src="https://github.com/Rohan-Shridhar/HopTab/blob/main/icons%2Ficon128.png" width="50%" />
@@ -79,7 +84,7 @@ Tools: <img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
   </tr>
 </table>
 
-## 🧰 NPM Packages
+## npm Packages
 
 <table>
   <tr>
