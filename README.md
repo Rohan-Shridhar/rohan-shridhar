@@ -4,14 +4,12 @@
 
 <!--
 <img width="1020" height="392" alt="image" src="https://github.com/user-attachments/assets/021ea2b2-95d2-4ac2-b99a-a381be460e11" title="portfolio"/>
+
+<img width="1105" height="475" alt="image" src="https://github.com/user-attachments/assets/102db0df-8d29-4c28-bda0-c3bb68c53763" />
 -->
   </a>
 </p>
-<!--
 
-<img width="1105" height="475" alt="image" src="https://github.com/user-attachments/assets/102db0df-8d29-4c28-bda0-c3bb68c53763" />
-
---->
 
 <!--
 <p align="center">
@@ -41,13 +39,13 @@
 ## 💻 Skills
 
 <p>
-Core Development: <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,vite,nodejs" />
+<img src="https://skillicons.dev/icons?i=js,ts,html,css,react,vite,nodejs" />
   <br/>
-Exploring: <img src="https://skillicons.dev/icons?i=java,c,cpp,python,md" />
+<img src="https://skillicons.dev/icons?i=java,c,cpp,python,md" />
   <br/>
-Databases: <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
+<img src="https://skillicons.dev/icons?i=mysql,mongodb" />
   <br/>
-Tools: <img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
+<img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=800080&text=Projects&section=header&textBg=false&fontColor=fff&fontSize=50&fontAlignY=46&fontAlign=29&animation=fadeIn"/>
