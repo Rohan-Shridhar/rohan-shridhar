@@ -25,12 +25,7 @@
 <i>
 <h3>
   
-```txt
-🧑‍🎓 CS Undergrad @ BMS College of Engineering, Bengaluru 
-💻 Building my skills in Full Stack Web Development  
-🌱 Actively contributing to Open Source 
-🤝 Always up for a good collab — hit me up!  
-```
+I'm a Computer Science undergraduate at BMS College of Engineering, Bengaluru, focused on building my skills in Full Stack Web Development. I use GitHub to build projects, learn new technologies, and contribute to Open Source. I enjoy collaborating with other developers and working on projects that help me learn by building.
 
 </h3>
 </i>
