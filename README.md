@@ -24,8 +24,10 @@
 
 <i>
 <h3>
-  
+
+```txt 
 I'm a Computer Science undergraduate at BMS College of Engineering, Bengaluru, focused on building my skills in Full Stack Web Development. I use GitHub to build projects, learn new technologies, and contribute to Open Source. I enjoy collaborating with other developers and working on projects that help me learn by building.
+````
 
 </h3>
 </i>
