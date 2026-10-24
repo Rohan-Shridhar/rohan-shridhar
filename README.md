@@ -46,45 +46,27 @@ I'm a Computer Science undergraduate at BMS College of Engineering, Bengaluru, f
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=800080&text=Projects&section=header&textBg=false&fontColor=fff&fontSize=50&fontAlignY=46&fontAlign=29&animation=fadeIn"/>
 
-<table>
-  <tr>
-    <td width="50%" valign="center" align="center">
-      <img src="images/heart.png" width="50%" />
-    <td width="50%">
-      <h3><a href="https://gridcraft-by-me.vercel.app/">Gridcraft<a/><h3/>
-      <h5>Pixel art application with adjustable grid and download image feature<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/gridcraft" /><img src="https://skillicons.dev/icons?i=react,html,css"  align="right"/>
-  </tr>
-  <tr>
-    <td width="50%" valign="center" align="center">
-      <img src="images/trashtrace.png" width="50%" />
-    <td width="50%">
-      <h3><a href="https://ai-trash-trace.vercel.app/">Trashtrace<a/><h3/>
-      <h5>QR-based waste tracking system using geolocation to monitor and verify waste shipments.<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/trashtrace" /><img src="https://skillicons.dev/icons?i=nodejs,react,html,css"  align="right"/>
-  </tr>
-</table>
-        
- ## Browser Extensions
-        
-<table> 
-  <tr>
-    <td width="50%" valign="center" align="center">
-      <img src="images/hoptab.png" width="50%" />
-    <td width="50%">
-      <h3><a href="https://rohan-shridhar.github.io/HopTab/">HopTab<a/><h3/>
-      <h5>Browser extension for quick navigation across favorite sites<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/HopTab" /><img src="https://skillicons.dev/icons?i=js,html,css" align="right"/>
-  </tr>
-  <tr>
-    <td width="50%" valign="center" align="center">
-      <img src="images/clipboard.png" width="50%" />
-    <td width="50%">
-      <h3><a href="https://rohan-shridhar.github.io/Kravoxin/">Kravoxin<a/><h3/>
-      <h5>Browser extension for storing copied itmes along with categorisation and editing<h5/>
-      <img src="https://img.shields.io/github/contributors/rohan-shridhar/Kravoxin" /><img src="https://skillicons.dev/icons?i=js,html,css"  align="right"/>
-  </tr>
-</table>
+<p align="left">
+<a href="https://gridcraft-by-me.vercel.app/">
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/73e9ce06-8e6e-46f8-96f2-24fee1aa2250" />
+</a></p>
+
+<p align="right">
+<a href="https://ai-trash-trace.vercel.app/">
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/b2d43713-3996-4c9b-9bd6-a2dc9ef516aa" />
+</a></p>
+
+
+## Browser Extensions
+
+<p align="center">
+  <a href="https://rohan-shridhar.github.io/HopTab/">
+    <img width="445" height="500" alt="image" src="https://github.com/user-attachments/assets/83e46728-55ff-47d4-bf29-e141a615a08a" />
+  </a>
+  <a href="https://rohan-shridhar.github.io/Kravoxin/">
+    <img width="445" height="500" alt="image" src="https://github.com/user-attachments/assets/503e346d-afe5-4072-a72c-2240182a9a9e" />
+  </a>
+</p>
 
 ## npm Packages
 
