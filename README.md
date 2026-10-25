@@ -197,6 +197,9 @@ I'm a Computer Science undergraduate at BMS College of Engineering, Bengaluru, f
       <img src="https://skillicons.dev/icons?i=devto" /></a>
   <a href="https://linkedin.com/in/rohan-mirjankar" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" /></a>
+      <a href="https://rayonbyte.hashnode.dev/" target="_blank">
+      <img src="https://www.google.com/s2/favicons?domain=hashnode.com&sz=48" />
+    </a>
   <a href="https://instagram.com/rohan.mirjankar" target="_blank">
     <img src="https://skillicons.dev/icons?i=instagram" /></a></a>
   <a href="https://twitter.com/Rohan_shridhar" target="_blank">
