@@ -1,6 +1,23 @@
 <p align="center">
   <a href="https://rohan-mirjankar.carrd.co/">
 <img width="2000" alt="image" src="https://github.com/user-attachments/assets/0bd763a4-322e-48b2-b697-10e3ad605226" />
+<p align=center>
+  <a href="https://github.com/rohan-shridhar" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" /></a>
+  <a href="https://dev.to/rohan_mirjankar" target="_blank">
+      <img src="https://skillicons.dev/icons?i=devto" /></a>
+  <a href="https://linkedin.com/in/rohan-mirjankar" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" /></a>
+      <a href="https://rayonbyte.hashnode.dev/" target="_blank">
+      <img src="https://www.google.com/s2/favicons?domain=hashnode.com&sz=48" />
+    </a>
+  <a href="https://instagram.com/rohan.mirjankar" target="_blank">
+    <img src="https://skillicons.dev/icons?i=instagram" /></a></a>
+  <a href="https://twitter.com/Rohan_shridhar" target="_blank">
+    <img src="https://skillicons.dev/icons?i=twitter" /></a></a>
+    <a href="https://peerlist.io/rohannn" target="_blank">
+    <img src="https://www.google.com/s2/favicons?domain=peerlist.io&sz=48" /></a></a>
+</p>
 
 <!--
 <img width="1020" height="392" alt="image" src="https://github.com/user-attachments/assets/021ea2b2-95d2-4ac2-b99a-a381be460e11" title="portfolio"/>
@@ -19,8 +36,6 @@
 </p>
 
 --->
----
-## ✍️ About me  
 
 <i>
 <h3>
@@ -171,24 +186,6 @@ I'm a Computer Science undergraduate at BMS College of Engineering, Bengaluru, f
 <p/>
 --->
 
-### 🌐 Connect with me
-<p align=center>
-  <a href="https://github.com/rohan-shridhar" target="_blank">
-      <img src="https://skillicons.dev/icons?i=github" /></a>
-  <a href="https://dev.to/rohan_mirjankar" target="_blank">
-      <img src="https://skillicons.dev/icons?i=devto" /></a>
-  <a href="https://linkedin.com/in/rohan-mirjankar" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" /></a>
-      <a href="https://rayonbyte.hashnode.dev/" target="_blank">
-      <img src="https://www.google.com/s2/favicons?domain=hashnode.com&sz=48" />
-    </a>
-  <a href="https://instagram.com/rohan.mirjankar" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram" /></a></a>
-  <a href="https://twitter.com/Rohan_shridhar" target="_blank">
-    <img src="https://skillicons.dev/icons?i=twitter" /></a></a>
-    <a href="https://peerlist.io/rohannn" target="_blank">
-    <img src="https://www.google.com/s2/favicons?domain=peerlist.io&sz=48" /></a></a>
-</p>
 
 <!--
 [![An image of @rohanshridhar's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rohanshridhar)](https://holopin.io/@rohanshridhar)
