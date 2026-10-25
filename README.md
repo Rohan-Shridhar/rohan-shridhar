@@ -61,10 +61,10 @@ I'm a Computer Science undergraduate at BMS College of Engineering, Bengaluru, f
 
 <p align="center">
   <a href="https://rohan-shridhar.github.io/HopTab/">
-    <img width="445" height="500" alt="image" src="https://github.com/user-attachments/assets/83e46728-55ff-47d4-bf29-e141a615a08a" />
+    <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/83e46728-55ff-47d4-bf29-e141a615a08a" />
   </a>
   <a href="https://rohan-shridhar.github.io/Kravoxin/">
-    <img width="445" height="500" alt="image" src="https://github.com/user-attachments/assets/503e346d-afe5-4072-a72c-2240182a9a9e" />
+    <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/503e346d-afe5-4072-a72c-2240182a9a9e" />
   </a>
 </p>
 
