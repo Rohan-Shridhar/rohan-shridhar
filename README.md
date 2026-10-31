@@ -4,8 +4,6 @@
 <p align=center>
   <a href="https://github.com/rohan-shridhar" target="_blank">
       <img src="https://skillicons.dev/icons?i=github" /></a>
-  <a href="https://dev.to/rohan_mirjankar" target="_blank">
-      <img src="https://skillicons.dev/icons?i=devto" /></a>
   <a href="https://linkedin.com/in/rohan-mirjankar" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" /></a>
       <a href="https://rayonbyte.hashnode.dev/" target="_blank">
