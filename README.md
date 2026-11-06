@@ -61,12 +61,12 @@ I'm a Computer Science undergraduate at BMS College of Engineering, Bengaluru, f
 
 <p align="left">
 <a href="https://gridcraft-by-me.vercel.app/">
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/73e9ce06-8e6e-46f8-96f2-24fee1aa2250" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/73e9ce06-8e6e-46f8-96f2-24fee1aa2250" />
 </a></p>
 
 <p align="right">
 <a href="https://ai-trash-trace.vercel.app/">
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/b2d43713-3996-4c9b-9bd6-a2dc9ef516aa" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/b2d43713-3996-4c9b-9bd6-a2dc9ef516aa" />
 </a></p>
 
 
