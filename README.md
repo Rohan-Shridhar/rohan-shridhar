@@ -81,6 +81,9 @@ I'm a Computer Science undergraduate at BMS College of Engineering, Bengaluru, f
   </a>
 </p>
 
+
+
+<!---
 ## npm Packages
 
 <table>
@@ -100,7 +103,7 @@ I'm a Computer Science undergraduate at BMS College of Engineering, Bengaluru, f
       <h5>A React component library for plug-and-play utility pages, starting with a fully customizable 404<h5/>
       <img src="https://img.shields.io/github/contributors/rohan-shridhar/react-pages" /> <img src="https://img.shields.io/npm/d18m/@rohansm14/react-pages" />  <img src="https://skillicons.dev/icons?i=react,css,vite,npm"  align="right"/>  
   </tr>
-<!---
+
   <tr>
     <td width="50%" valign="center" align="center">
       <img src="images/ciphex.jpg" width="50%" />
