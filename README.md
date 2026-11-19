@@ -37,8 +37,7 @@
 
 <i>
 <h3>
-
-I'm a Computer Science undergraduate at BMS College of Engineering, Bengaluru, focused on building my skills in Full Stack Web Development. I use GitHub to build projects, learn new technologies, and contribute to Open Source. I enjoy collaborating with other developers and working on projects that help me learn by building.
+I started out writing HTML scripts back in 2022 and never really stopped building interest for the web. These days I'm mostly in Node.js, Express.js and React/Next.js, and I spend a lot of time on the part before the code: figuring out how to not mess up my project. I use GitHub to build projects, learn new technologies, and contribute to Open Source. I enjoy collaborating with other developers and working on projects that help me learn by building.
 
 
 </h3>
