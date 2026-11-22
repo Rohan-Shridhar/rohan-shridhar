@@ -6,9 +6,6 @@
       <img src="https://skillicons.dev/icons?i=github" /></a>
   <a href="https://linkedin.com/in/rohan-mirjankar" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" /></a>
-      <a href="https://rayonbyte.hashnode.dev/" target="_blank">
-      <img src="https://www.google.com/s2/favicons?domain=hashnode.com&sz=48" />
-    </a>
   <a href="https://instagram.com/rohan.mirjankar" target="_blank">
     <img src="https://skillicons.dev/icons?i=instagram" /></a></a>
   <a href="https://twitter.com/Rohan_shridhar" target="_blank">
@@ -47,11 +44,11 @@ I started out writing HTML scripts back in 2022 and never really stopped buildin
 ## 💻 Skills
 
 <p>
-<img src="https://skillicons.dev/icons?i=js,ts,html,css,react,vite,nodejs" />
+<img src="https://skillicons.dev/icons?i=js,ts,react,vite,nodejs" />
   <br/>
-<img src="https://skillicons.dev/icons?i=java,c,cpp,python,md" />
+<img src="https://skillicons.dev/icons?i=java,c,cpp,python,html,css,md" />
   <br/>
-<img src="https://skillicons.dev/icons?i=mysql,mongodb" />
+<img src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite" />
   <br/>
 <img src="https://skillicons.dev/icons?i=git,vscode,npm,vercel," /></a>
 </p>
@@ -60,7 +57,7 @@ I started out writing HTML scripts back in 2022 and never really stopped buildin
 
 <p align="left">
 <a href="https://gridcraft-by-me.vercel.app/">
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/73e9ce06-8e6e-46f8-96f2-24fee1aa2250" />
+<img width="500" alt="gridcraft" src="https://github.com/user-attachments/assets/cd904f65-deef-4567-9e91-b74d9013d0af" />
 </a></p>
 
 <p align="right">
@@ -152,8 +149,14 @@ I started out writing HTML scripts back in 2022 and never really stopped buildin
 </table>
 --->
 
-[Explore all projects---->](https://rohan-shridhar.github.io/rohan-shridhar/)
-
+<p align="center">
+  <a href="https://rohan-shridhar.github.io/rohan-shridhar/" target="_blank">
+    <img width="200" alt="image" src="https://github.com/user-attachments/assets/9f583320-fd63-4993-918f-cb3ce641c7ad" />
+  </a>
+  <a href="https://rayonbyte.hashnode.dev/" target="_blank">
+    <img width="200" alt="image" src="https://github.com/user-attachments/assets/ffa65973-e5fd-46d9-8a10-875a5f795659" />
+  </a>
+</p>
 ---
 
 <!--
