@@ -44,9 +44,9 @@ I started out writing HTML scripts back in 2022 and never really stopped buildin
 ## 💻 Skills
 
 <p>
-<img src="https://skillicons.dev/icons?i=js,ts,react,vite,nodejs" />
+<img src="https://skillicons.dev/icons?i=react,vite,nextjs,nodejs,expressjs" />
   <br/>
-<img src="https://skillicons.dev/icons?i=java,c,cpp,python,html,css,md" />
+<img src="https://skillicons.dev/icons?i=js,python,java,c,cpp,html,css,md" />
   <br/>
 <img src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite" />
   <br/>
