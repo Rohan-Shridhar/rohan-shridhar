@@ -34,7 +34,7 @@
 
 
 <h3>
-I started out writing HTML scripts back in 2024 and never really stopped building interest for the web. These days I'm mostly in Node.js, Express.js and React/Next.js, and spend a lot of time on the part before the code: <i> figuring out how architecture will bring life to my project.</i> I use GitHub to build projects, learn new technologies, and contribute to Open Source. Collaborating with other developers and writing technical blogs about projects that help me learn by building keeps me active. I am the maintainer of <a href="htttps://gridcraft-by-me.vercel.app">gridcraft</a>, I have published number of npm packages gaining 3k+ downloads.
+I started out writing HTML scripts back in 2024 and never really stopped building interest for the web. These days I'm mostly in Node.js, Express.js and React/Next.js, and spend a lot of time on the part before the code: <i> figuring out how architecture will bring life to my project.</i> I use GitHub to build projects, learn new technologies, and contribute to Open Source. Collaborating with other developers and writing technical blogs about projects that help me learn by building keeps me active. I am the maintainer of <a href="https://gridcraft-by-me.vercel.app">gridcraft</a>, I have published number of npm packages gaining 3k+ downloads.
 </h3>
 
 
